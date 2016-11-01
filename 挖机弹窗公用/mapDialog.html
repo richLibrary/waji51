@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>提示信息</title>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css">
+<script src="js/jquery.js"></script>
+<script src="js/dialog-plus.js"></script>
+
+</head>
+
+<body>
+<style type="text/css">
+.mapDialog{width:600px;height:630px;background-color:#fff;display:none;position:relative;}
+.mapDialog h3{background-color:#f2f2f2;font:14px/30px "\5FAE\8F6F\96C5\9ED1";padding-left:10px;color:#666}
+.closeDialog{position:absolute;top:6px;right:10px;font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.closeDialog:hover{color:#f60;text-decoration:none;}
+</style>
+<!-- 挖机公共弹窗 -->
+<div class="mapDialog" id="mapDialog">
+	<h3>店铺地址</h3>
+	<a i="close" class="iconfont closeDialog" href="javascript:void(0)" title="关闭">&#xe612;</a>
+	<div class="mapTxt">我是地图</div>
+</div>
+<!-- 点击弹出窗口 -->
+<button id="tanchu">弹出窗口</button>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#tanchu').click(function(){
+         dialog({
+             content:document.getElementById('mapDialog'),
+			 ok: function () {
+				 this.close();
+				 return false;
+				 },
+			 cancel: function () {
+				 this.close();
+				 return false;
+				 },
+			 width:600,
+			 height:630,
+			 fixed:false,
+         }).showModal();
+		 //让隐藏的样式显示
+		 $('#mapDialog').css('display','block');
+	});
+})
+</script>
+</body>
+</html>

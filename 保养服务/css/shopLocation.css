@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*-- 门店位置 ---*/
+.shopAreaList{width:1198px;height:auto;overflow:hidden;margin:0px auto;border:#dcdcdc solid 1px;}
+.changeProvice{height:45px;background-color:#f7f7f7;font:12px/45px "\5FAE\8F6F\96C5\9ED1";border-bottom:#dcdcdc solid 1px;padding-left:30px;}
+.changeProvice b{font:16px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.changeProvice font{float:right;margin-right:15px;color:#999;}
+.areaLists{width:1168px;height:auto;overflow:hidden;padding:15px 0px 0px 30px;}
+.areaLists a{width:136px;text-align:left;float:left;font:13px/13px "\5FAE\8F6F\96C5\9ED1";margin-bottom:15px;color:#666;}
+.areaLists a:hover{color:#c31b21;}
+.areaLists a.selected{color:#c31b21;}
+.shopMap{height:auto;overflow:hidden;margin:0px auto;width:1198px;border:#dcdcdc solid 1px;}
+.myCollection{height:45px;background-color:#f7f7f7;font:12px/45px "\5FAE\8F6F\96C5\9ED1";border-bottom:#dcdcdc solid 1px;padding-left:30px;position:relative;}
+.myCollection b{font:16px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.mapSearch{position:absolute;top:6px;left:200px;border:#ba060b solid 1px;height:31px;background-color:#fff;font:12px/32px "\5FAE\8F6F\96C5\9ED1";padding-left:15px;}
+.mapSearch input[type="text"]{width:290px;height:20px;border:#fff solid 1px;margin-top:5px;border-left:#dcdcdc solid 1px;padding-left:5px;box-sizing:content-box;float:left;}
+.mapSearch b{font:12px/32px "\5FAE\8F6F\96C5\9ED1";color:#666;float:left;}
+.mapSearch input[type="button"]{width:60px;height:31px;border:#ba060b solid 1px;color:#fff;font-size:14px;cursor:pointer;background-color:#ba060b;float:left;}
+.shopSort{width:200px;float:right;}
+.shopSort a{width:60px;height:30px;text-align:center;color:#666;display:inline-block;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.shopSort a.on{color:#f2b438;border:#f2b438 dashed 1px;}
+.shopSort a:hover{text-decoration:none;}
+.mapArea{width:1198px;height:760px;overflow:hidden;}
+.mapLeft{height:760px;width:760px;float:left;border-right:#dcdcdc solid 1px;}
+.mapRight{width:420px;height:760px;overflow:auto;float:right;}
+.mapRight li{height:auto;overflow:hidden;padding:18px 0px;border-bottom:#dcdcdc dashed 1px;}
+.mapRight li{}
+.shopNames{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#0c75dd;display:block;margin-bottom:12px;}
+.shopImgs{float:left;border:#dcdcdc solid 1px;}
+.mapRight li p{width:308px;float:left;padding-left:12px;}

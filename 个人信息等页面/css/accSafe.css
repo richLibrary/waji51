@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*-- 绑定手机 ---*/
+.accSafeWelcom{height:auto;overflow:hidden;}
+.accSafeWelcom h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.accSafeWelcom p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.accSafeWelcom p a{color:#f60;margin:0px 5px;}
+/*-- 绑定手机 ---*/
+.safeList{height:auto;overflow:hidden;margin-top:0px;}
+.safeList li{height:50px;padding:40px 0px 40px 60px;overflow:hidden;position:relative;border-bottom:#e8e8e8 solid 1px;}
+.safeList li i{position:absolute;font:40px/50px "\5FAE\8F6F\96C5\9ED1";left:0px;top:40px;color:#f60;}
+.safeList li p{color:#999;}
+.safeList li p b{color:#000;font:16px/30px "\5FAE\8F6F\96C5\9ED1";}
+.safeList li p font{color:#a10808;font:14px/30px "\5FAE\8F6F\96C5\9ED1";margin-left:15px;}
+.safeList li p span{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-left:15px;}
+.safeList li input{width:;}
+.safeList li input{width:105px;height:32px;background-color:#fff;position:absolute;top:48px;right:0px;color:#333;font-size:14px;border-radius:4px;border:#dcdcdc solid 1px;cursor:pointer;}
+.safeList li input.binding{border:#f60 solid 1px;color:#f60}

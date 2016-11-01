@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*-- 我的积分 ---*/
+.intergralWelcom{height:auto;overflow:hidden;}
+.intergralWelcom h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.intergralWelcom p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.intergralWelcom p a{color:#f60;margin:0px 5px;}
+/*-- 我的积分 ---*/
+.myIntegralTit{height:65px;border-bottom:#e8e8e8 solid 1px;margin-top:10px;}
+.myIntegralTit span{width:130px;float:left;padding:0px 0px;font:16px/65px "\5FAE\8F6F\96C5\9ED1";color:#999;text-align:center;cursor:pointer;}
+.myIntegralTit span.on{color:#f60;}
+.myIntegral{height:auto;overflow:hidden;}
+.integralDets{height:auto;overflow:hidden;display:none;padding-top:15px;}
+.integralDets.on{display:block;}
+.integralDets p{font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.integralDets p font{color:#f60;font:16px/30px "\5FAE\8F6F\96C5\9ED1";margin:0px 2px;}
+.integralDets p a{color:#5c9fe5}
+.detsTable{width:100%;border:#e8e8e8 solid 1px;margin-top:20px;}
+.detsTable tr.tit td{height:45px;background-color:#f1f1f1;font:14px/45px "\5FAE\8F6F\96C5\9ED1";}
+.detsTable tr td{text-align:center;height:40px;font:12px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;overflow:hidden;}
+.detsTable tr.txt td{border-bottom:#dcdcdc dashed 1px;}
+.detsTable tr.txt td.used{color:#f60}
+.noArrival{width:100%;border:#e8e8e8 solid 1px;margin-top:20px;}
+.noArrival tr.tit td{height:45px;background-color:#f1f1f1;font:14px/45px "\5FAE\8F6F\96C5\9ED1";}
+.noArrival tr td{text-align:center;height:40px;font:12px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;overflow:hidden;}
+.noArrival tr.txt td{border-bottom:#dcdcdc dashed 1px;}
+.noArrival tr.txt td.used{color:#f60}

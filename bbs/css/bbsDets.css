@@ -1,0 +1,79 @@
+@charset "utf-8";
+/*---- 帖子标题和内容 ----*/
+.bbsDets{width:1198px;height:auto;overflow:hidden;margin:0px auto;}
+.bdLeft{width:890px;height:auto;overflow:hidden;float:left;}
+.bbsTit{width:848px;height:70px;overflow:hidden;background-color:#fff;border:#dcdcdc solid 1px;padding:20px 20px;position:relative;}
+.bbsTit img{float:left;}
+.bbsTit h1{float:left;padding-left:15px;font:20px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;width:475px;height:30px;overflow:hidden;}
+.bbsTit p{float:left;display:block;width:530px;padding-left:15px;color:#999}
+.bbsTit span{width:245px;padding-right:15px;height:110px;color:#999;border-left:#dcdcdc solid 1px;position:absolute;right:0px;top:0px;display:block;text-align:right;}
+.bbsTit span strong{display:block;font:30px/70px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.bbsTit span font{margin:0px 4px;color:#f60}
+.bbsTxt{width:848px;height:auto;border:#dcdcdc solid 1px;border-top:none;background-color:#fff;padding:20px;}
+.bbsCopyRight{height:auto;overflow:hidden;padding:20px 25px;background-color:#fff;border:#dcdcdc solid 1px;border-top:none;color:#666;font:12px/28px "\5FAE\8F6F\96C5\9ED1";}
+.bbsCopyRight span.bdsharebuttonbox{float:right;}
+.bbsPage{height:auto;overflow:hidden;padding:20px 25px;background-color:#fff;border:#dcdcdc solid 1px;border-top:none;color:#666;}
+.bbsPage span{width:49.5%;height:40px;text-align:center;font:12px/40px "\5FAE\8F6F\96C5\9ED1";float:left;background-color:#f5f5f5;}
+.bbsPage span.right{float:right;}
+.bbsPage span a{color:#666;display:block;}
+.bbsPage span a:hover{color:#f60;text-decoration:none;}
+/*---- 帖子评论 ----*/
+.bbsComment{height:auto;overflow:hidden;margin-top:20px;background-color:#fff;border:#dcdcdc solid 1px;padding:5px 20px 20px 20px;}
+.comTit{font:18px/50px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.comTit a{font:12px/50px "\5FAE\8F6F\96C5\9ED1";color:#3498db;margin-left:10px;}
+.commentEdit{height:100px;background-color:#ddd;}
+.comList{height:auto;overflow:hidden;margin-top:15px;}
+.comTxt{height:auto;overflow:hidden;border-bottom:#dcdcdc solid 1px;}
+.userCommet{height:auto;overflow:hidden;}
+.userCommet img{float:left;}
+.userCommet p{width:780px;padding-left:15px;color:#666;float:right;font:12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.userCommet p.bbsUser{padding-top:10px;}
+.userCommet p a{color:#f60;margin-right:10px;}
+.userCommet p a.replyBtn{color:#666;margin-left:15px;}
+.userCommet p a:hover{color:#f60;}
+.userCommet p a.replyBtn:hover{text-decoration:none;}
+.userReply{height:auto;width:780px;color:#666;float:right;font:12px/20px "\5FAE\8F6F\96C5\9ED1";border-top:#dcdcdc solid 1px;margin-top:15px;position:relative;}
+.userReplyIcon{width:37px;height:15px;background:url("../images/bbsReply.png") no-repeat center center scroll;position:absolute;top:-15px;left:179px;}
+.userReply ul{height:auto;overflow:hidden;padding-bottom:20px;}
+.userReply ul li{height:auto;overflow:hidden;padding:10px 0px 15px 0px;border-bottom:#dcdcdc dashed 1px;}
+.userReply ul li img{float:left;}
+.userReply ul li p{width:715px;color:#666;float:right;font:12px/20px "\5FAE\8F6F\96C5\9ED1";margin-bottom:15px;}
+.userReply ul li span{width:715px;float:right;}
+.userReply ul li span a{color:#f60;margin-right:15px;}
+.replyBtn2{margin-left:62px;height:40px;background-color:#ecf0f1;overflow:hidden;clear:both;padding-left:20px;font:12px/40px "\5FAE\8F6F\96C5\9ED1";color:#999}
+.replyBtn2 input{width:590px;height:30px;background-color:#ecf0f1;border:none;padding-left:10px;color:#333}
+.replyBtn2 span{width:auto;float:left;}
+.replyOp{height:auto;overflow:hidden;text-align:right;padding-top:20px;}
+.replyOp a{font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#f60;margin-right:30px;}
+.replyOp input{width:94px;height:40px;border-radius:3px;background-color:#f60;color:#fff;font-size:14px;border:none;}
+/*---- 用户信息 ----*/
+.hmRight{width:258px;padding:0px 15px;height:400px;overflow:hidden;border:#dcdcdc solid 1px;overflow:hidden;float:right;background-color:#fff;text-align:center;}
+.hmRight img{border:#dcdcdc solid 1px;margin:20px 0px 0px 0px;padding:5px;}
+.hmRight h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.myCar{height:auto;overflow:hidden;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.myCar b{color:#999;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.myCar span{width:210px;float:right;text-align:left;}
+.myFeeling{border-top:#eee solid 1px;height:auto;overflow:hidden;margin-top:20px;}
+.myFeeling a{width:50%;float:left;height:85px;}
+.myFeeling font{display:block;text-align:center;font:22px/53px "\5FAE\8F6F\96C5\9ED1";color:#f60;}
+.myFeeling b{display:block;text-align:center;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.myFeeling a:hover{text-decoration:none;}
+.sendMsg{width:230px;height:36px;background-color:#f60;color:#fff;cursor:pointer;font-size:14px;border:none;border-radius:4px;margin-top:5px;}
+/*---- 热门晒单 ----*/
+.hotShow{width:288px;height:auto;border:#dcdcdc solid 1px;border-bottom:none;overflow:hidden;float:right;background-color:#fff;margin-top:20px}
+.hotShow h2{font:16px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:10px;border-bottom:#dcdcdc solid 1px;background-color:#f9f9f9;}
+.hotShow h2 i{color:#f60;margin-right:8px;font:18px/42px "\5FAE\8F6F\96C5\9ED1";}
+.hotShow ul{height:auto;overflow:hidden;}
+.hotShow ul li{height:auto;overflow:hidden;padding:10px 10px;border-bottom:#dcdcdc solid 1px;}
+.hotShow ul li img{float:left;border:#dcdcdc solid 1px;float:left;margin:0px 12px 0px 0px;}
+.feelingTit{font:12px/15px "\5FAE\8F6F\96C5\9ED1";color:#000;overflow:hidden;}
+.hotShow ul li p{font:2px/16px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-top:7px;}
+.hotShow ul li span{display:block;color:#999;padding-top:7px;}
+.hotShow ul li span a{color:#333;margin-right:10px;}
+.hotShow ul li a:hover{color:#f60;}
+/*---- 活跃用户 ----*/
+.activeUser{width:288px;height:auto;overflow:hidden;border:#dcdcdc solid 1px;float:right;background-color:#fff;margin-top:20px;}
+.activeUser h2{font:16px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:10px;border-bottom:#dcdcdc solid 1px;background-color:#f9f9f9;}
+.activeUser ul{height:auto;overflow:hidden;padding-top:12px;}
+.activeUser ul li{float:left;margin:0px 0px 8px 8px;}
+.activeUser ul li img{border:#eee solid 1px;}

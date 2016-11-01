@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+	<meta charset="utf-8" />
+	<title>个人中心-挖机商城</title>
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	
+	
+	<link rel="stylesheet" href="http://testui.yangdou.com/project/userCenter/css/common.css" type="text/css" />
+	
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	
+<!--	<link rel="stylesheet" href="http://testui.yangdou.com/project/userCenter/css/ucComment.css" type="text/css" />-->
+	
+	<link rel="stylesheet" href="css/ucComment.css" type="text/css" />	
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body style="background-color:#f2f2f2;">
+<!---- 个人中心面包屑导航 ---->
+<div class="ucBreads">您现在的位置：<a href="#" title="" target="_self">首页</a><code>&gt;</code>个人中心</div>
+<!---- 个人中心面包屑导航 ---->
+<div class="ucMain">
+	<div class="leftSide">
+		<div class="userPhoto">
+			<a href="#" title="个人中心" target="_self">
+				<img src="images/testimg/test01.png" width="118" height="118" />
+			</a>
+			<b>用户中心/用户名</b>
+		</div>
+		<!--- 个人中心左侧菜单 --->
+		<ul>
+			<li>
+				<h2>订单中心</h2>
+				<a href="#" title="全部订单" target="_self">全部订单</a>
+				<a href="#" title="待支付" target="_self">待支付</a>
+				<a href="#" title="待发货" target="_self">待发货</a>
+				<a href="#" title="待收货" target="_self">待收货</a>
+				<a href="#" title="待评价" target="_self">待评价</a>
+				<a href="#" title="已关闭" target="_self">已关闭</a>
+			</li>
+			<li>
+				<h2>账号管理</h2>
+				<a href="#" title="个人信息" target="_self">个人信息</a>
+				<a href="#" title="收货地址" target="_self">收货地址</a>
+				<a href="#" title="优惠券" target="_self">优惠券</a>
+				<a href="#" title="积分" target="_self">积分</a>
+				<a href="#" title="账号安全" target="_self">账号安全</a>
+				<a href="#" title="已关闭" target="_self">已关闭</a>
+			</li>
+			<li>
+				<h2>车管家</h2>
+				<a href="#" title="车辆管理" target="_self">车辆管理</a>
+				<a href="#" title="新增车辆" target="_self">新增车辆</a>
+			</li>
+			<li>
+				<h2>论坛管理</h2>
+				<a href="#" title="我的发帖" target="_self">我的发帖</a>
+				<a href="#" title="我的评论" target="_self">我的评论</a>
+				<a href="#" title="我的私信" target="_self">我的私信</a>
+			</li>
+			<li>
+				<h2>系统消息</h2>
+				<a href="#" title="系统通知" target="_self">系统通知</a>
+				<a href="#" title="网站公告" target="_self">网站公告</a>
+			</li>
+		</ul>
+	</div>
+	<!--- 右侧 --->
+	<div class="rightSide">
+		<!---- 订单状态头部 ---->
+		<div class="commentWel">
+			<h1>发表评论</h1>
+			<p>提示：如对订单有任何疑问，请立即联系我们！</p>
+		</div>
+		<!---- 商品评分 ---->
+		<div class="salesComment">
+			<p class="saleScroe">
+				<b>商品评分：</b>
+				<i class="iconfont" title="1">&#xe627;</i>
+				<i class="iconfont" title="2">&#xe627;</i>
+				<i class="iconfont" title="3">&#xe627;</i>
+				<i class="iconfont" title="4">&#xe627;</i>
+				<i class="iconfont" title="5">&#xe627;</i>
+				<input class="scoreInput" type="text" value="0" />
+			</p>
+			<!---- 商品评分 ---->
+			<div class="proComments">
+				<a class="comProLink" href="#" title="商品的名称" target="_blank">
+					<img src="images/testimg/test01.png" width="123" height="123" alt="商品名称" title="商品名称" />
+					<b>商品的名称一定要长商品的名称一定要长商品的名称一定要长商品的名称一定要长</b>
+				</a>
+				<textarea placeholder="请填写您对商品的评价~"></textarea>
+				<span class="anonymCheck"><input type="checkbox" />匿名</span>
+				<div class="comImgShow">
+					<span class="on"><img src="images/testimg/pro.jpg" width="40" height="40" alt="晒店铺的图片名称" /></span>
+					<span><img src="images/testimg/pro.jpg" width="40" height="40" alt="晒店铺的图片名称" /></span>
+					<span><img src="images/testimg/pro.jpg" width="40" height="40" alt="晒店铺的图片名称" /></span>
+					<font>3/5</font>
+				</div>
+				<input class="showPhotos" type="button" value="" />
+				<input class="submitComment" type="button" value="提交" />
+			</div>
+		</div>
+		<!---- 店铺评分 ---->
+		<div class="shopScroe">
+			<p class="saleScroe">
+				<b>店铺评分：</b>
+				<i class="iconfont" title="1">&#xe627;</i>
+				<i class="iconfont" title="2">&#xe627;</i>
+				<i class="iconfont" title="3">&#xe627;</i>
+				<i class="iconfont" title="4">&#xe627;</i>
+				<i class="iconfont" title="5">&#xe627;</i>
+				<input class="scoreInput" type="text" value="0" />
+			</p>
+			<!---- 店铺名称 ---->
+			<h3>店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称</h3>
+			<!---- 输入标题 ---->
+			<div class="scTit">
+				<input type="text" placeholder="在此输入标题" />
+			</div>
+			<!---- 编辑器 ---->
+			<div class="editor">
+				编辑器
+			</div>
+			<!---- 上传图片 ---->
+			<div class="shopShowPhotos">
+				<a href="javascript:void(0)" title="选择图片">选择图片</a>
+				<span>上传格式为<font>.jpg</font>、<font>.gif</font>、<font>.png</font>，最多只能上传<font>5</font>张图片，单张不超过<font>5MB</font></span>
+			</div>
+			<!---- 上传图片列表 ---->
+			<ul class="comImgList">
+				<li>
+					<span class="iconfont">&#xe628;</span>
+					<span class="iconfont">&#xe629;</span>
+					<img src="" width="80" height="80" alt="图片名称"/>
+					<a href="javascript:void(0)" title="删除图片">删除图片</a>
+				</li>
+				<li>
+					<span class="iconfont">&#xe628;</span>
+					<span class="iconfont">&#xe629;</span>
+					<img src="" width="80" height="80" alt="图片名称"/>
+					<a href="javascript:void(0)" title="删除图片">删除图片</a>
+				</li>
+				<li>
+					<span class="iconfont">&#xe628;</span>
+					<span class="iconfont">&#xe629;</span>
+					<img src="" width="80" height="80" alt="图片名称"/>
+					<a href="javascript:void(0)" title="删除图片">删除图片</a>
+				</li>
+				<li>
+					<span class="iconfont">&#xe628;</span>
+					<span class="iconfont">&#xe629;</span>
+					<img src="" width="80" height="80" alt="图片名称"/>
+					<a href="javascript:void(0)" title="删除图片">删除图片</a>
+				</li>
+			</ul>		
+		</div>
+		<!---- 发表评价按钮 ---->
+		<div class="comBtn">
+			<input type="button" value="发表评价" />
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	//评分星星
+	$(".saleScroe i").click(function(){
+		//星级评价jquery
+		var isScore=$(this).attr("title");
+		$(this).addClass("on");
+		$(this).prevAll().addClass("on");
+		$(this).nextAll().removeClass("on");
+		//alert(isScore)
+		$(this).siblings(".scoreInput").val(isScore)
+	});
+
+})
+</script>
+</body>
+</html>

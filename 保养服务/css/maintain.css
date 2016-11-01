@@ -1,0 +1,221 @@
+﻿@charset "utf-8";
+/* 保养步骤 */
+.maintainSteps{width: 1200px; height:43px;overflow: hidden;margin: 0 auto 10px; position: relative;}
+.maintainSteps li{width:400px;height: 43px; font: 16px/43px "\5FAE\8F6F\96C5\9ED1";cursor: pointer; float: left; text-align: center;}
+.stepsBg-one{background-color: #ff5742;color: #FFFFFF;}
+.stepsBg-two{background:url(../images/server.jpg) no-repeat center center scroll;color: #666666;}
+.stepsBg-thr{color: #666666;background:url(../images/server1.jpg) no-repeat center center scroll}
+.stepsBg-four{background:url(../images/server3.jpg) no-repeat center center scroll;color: #FFFFFF;}
+/*-- 保养服务 ---*/
+.mtLeftTxt{width:100%;margin-bottom:20px;}
+.mtLeftTxt caption{text-align:left;background-color:#e8e8e8;padding:0px 0px;height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";position:relative;}
+.mtLeftTxt caption b{font:15px/35px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-left:31px;}
+.mtLeftTxt caption span{color:#c31b21;position:absolute;left:465px;}
+.mtLeftTxt caption a{float:right;color:#999;margin-right:51px;font:20px/35px "\5FAE\8F6F\96C5\9ED1";}
+.mtLeftTxt caption a:hover{color:#c31b21;text-decoration:none;}
+.mtLeftTxt tr td{width:100px;padding:25px 10px;text-align:center;border-bottom:#e8e8e8 solid 1px;font:14px/20px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;}
+.mtLeftTxt tr td.product{width:320px;text-align:left;}
+.mtLeftTxt tr td.price{color:#c31b21;}
+.counts a,.counts input{display:inline-block;}
+.counts a{width:20px;height:20px;border:#dcdcdc solid 1px;font:200 12px/20px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.counts a:hover{color:#f60;text-decoration:none;}
+.counts input{width:35px;height:20px;text-align:center;box-sizing:content-box;border:#dcdcdc solid 1px;}
+.mtLeftTxt tr td a{color:#666}
+.mtLeftTxt tr td a:hover{text-decoration:none;color:#f60}
+/* 车型更换  */
+.maintainList dl{ height: auto; overflow: hidden; border-bottom: 1px solid #e4e4e4; padding: 34px 0; margin: 0 15px; position: relative;}
+.maintainList dl dt{float: left; border: 1px solid #E4E4E4; padding: 5px; position: relative; margin-right: 30px;}
+.maintainList dl dt a{ display: block;width: 136px; height: 136px;}
+.maintainList dl dd{ margin: 12px 0 12px 178px;}
+.replace{width: 136px; height: 28px;font: 14px/28px "\5FAE\8F6F\96C5\9ED1"; background-color: #5c5b5b; text-align: center; display: block;color: #FFFFFF; position: absolute;left: 5px; bottom: 5px;cursor: pointer;}
+.models{ width: 66px; height: 20px;font: 14px/20px "\5FAE\8F6F\96C5\9ED1";color: #FFFFFF;background-color: #56b444;text-align: center; position: relative;}
+.models b{ height:0;width:0;overflow: hidden;font-size: 0;line-height: 0;border-color:#56b444 transparent transparent transparent; border-style:solid dashed dashed dashed;border-width:6px 6px 0 0; position: absolute; left: 0px; bottom: -6px;}
+.carTitle{height:28px; overflow:hidden;width: 520px;}
+.carTitle a{font: bold 28px/28px "\5FAE\8F6F\96C5\9ED1"; height:28px;color: #5C5B5B;}
+.carText{font: 14px/14px "\5FAE\8F6F\96C5\9ED1";color: #666666; width: 520px;height:14px; overflow:hidden;}
+.maintainList dl .carTotal{ font: 14px/14px "\5FAE\8F6F\96C5\9ED1";color: #555555; position: absolute; right: 60px; top: 52px;margin-left: 0;}
+.carSelect{width: 278px; height: 42px; font: 12px/42px "\5FAE\8F6F\96C5\9ED1";color: #999999; padding-left:15px;}
+.maintainList dl dd.carNext{position: absolute;right: 60px; bottom: 20px;cursor: pointer;margin-left: 0;}
+.carNext input{width: 280px; height: 44px; font: 16px/44px "\5FAE\8F6F\96C5\9ED1";color: #FFFFFF; text-align: center;background-color: #EE3A3D;border: none;}
+/* 保养项目列表 */
+.maintainList{height:auto;overflow:hidden;margin:0px auto;padding-bottom:30px;width:1198px;border:#dcdcdc solid 1px;background-color:#fff;}
+.maintainList-down,.maintainList-top{margin:0px 15px;height:auto;overflow:hidden;}
+.maintainList-content ul{margin:15px 20px;height:auto;overflow:hidden;}
+.maintainList-content span.iconfont{position: absolute;top: 0;right: 0;}
+.maintainList-content ul li{height:auto;line-height:25px;display: none;position: relative;overflow:hidden;padding-left:62px;}
+.maintainList-content ul li b{position: absolute;left:0;top:0;font-weight:700;}
+.maintainList-content ul li span.iconfont{position: absolute;top: 0;right: 0;cursor:pointer;font-size: 12px;}
+.maintainList-content ul li.on{display: block;}
+.maintainList-content ul li a{color: #666666;border: 1px solid #E4E4E4;margin:0 15px 15px 0;padding:0 10px;display: inline-block;}
+.maintainList-top b{float:left;padding-left:15px;font:14px/44px "\5FAE\8F6F\96C5\9ED1";}
+.maintainList-top span,.maintainList-down span{height:42px;float:left;cursor:pointer;font:12px/42px "\5FAE\8F6F\96C5\9ED1";color:#666;;border:#dcdcdc solid 1px;display: inline-block;}
+.maintainList-top span{width:115px;margin:30px 5px 0;}
+.maintainList-down span{width:126px;margin:30px 8px 0;}
+.maintainList-top span.selected,.maintainList-down span.selected{border:#f79673 solid 2px;padding:0px 0px 0px 0px;background:url("../images/selected03.png")no-repeat right bottom scroll;}
+.maintainList-top span i,.maintainList-down span i{font:26px/42px "\5FAE\8F6F\96C5\9ED1";color:#999;margin:0px 15px 0px 10px;float:left;}
+.maintainList-top span.selected i,.maintainList-down span.selected i{color:#f79673;}
+/* 保养内容 */
+.maintainMain{width:1168px;margin:0px auto;height:auto;overflow:hidden;background-color:#fff;padding:15px 15px;border:#dcdcdc solid 1px;border-bottom:none;border-top:none;}
+.mtLeftList{width:820px;height:auto;overflow:hidden;float:left;}
+.mtLeftTit{height:38px;font:14px/38px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#939aaa;}
+.mtLeftTit span{float:left;color:#fff;width:100px;padding:0px 10px;text-align:center;}
+.mtLeftTit span.product{width:320px;text-align:left;}
+/* 保养项目右侧 */ 
+.mtRight{width:330px;float:right;overflow:hidden;background-color:#fafafa}
+.mtRightTit{height:38px;font:14px/38px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#939aaa;padding-left:15px;}
+.mtRightTit select{width:100px;height:28px;margin-left:5px;}
+/* 热门 */
+.hotProduct{height:120px;overflow:hidden;padding:20px 0px;border-bottom:#e8e8e8 solid 1px;}
+.hotProduct img{width:118px;height:118px;border:#dcdcdc solid 1px;float:left;margin-right:13px;}
+.hotProduct a{font:14px/20px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.hotProduct font{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#f73839;display:block;margin-top:15px;}
+/* 更多保养项目列表 */
+.mtRightTxt{height:auto;overflow:hidden;padding:0px 10px;}
+.mtRightTxt li{height:70px;padding:15px 0px;border-bottom:#e8e8e8 solid 1px;position:relative;}
+.mtRightTxt li img{width:68px;height:68px;border:#dcdcdc solid 1px;float:left;margin-right:10px;}
+.mtRightTxt li a.productName{font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#666;max-height:40px;display:block;overflow:hidden;width:170px;float:left;}
+.mtRightTxt li font{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#f73839;display:block;margin-top:10px;float:left;}
+.mtRightTxt li a:hover{color:#f60;}
+.mtRightTxt li input{width:40px;height:25px;border:#f4835c solid 1px;background-color:#fff;color:#f4835c;fon-size:14px;cursor:pointer;border-radius:3px;position:absolute;top:20px;right:0px;}
+.mtRightTxt li input:hover{background-color:#f4835c;color:#fff}
+.changeTab{height:50px;text-align:center;background-color:#e3e3e3;}
+.changeTab span{margin:0px 15px;font:30px/50px "\5FAE\8F6F\96C5\9ED1";cursor:pointer;color:#999;}
+/* 保养项目价格统计 */
+.mtTotal{width:1198px;height:100px;background-color:#e8e8e8;margin:0px auto;border:#dcdcdc solid 1px;border-top:none;font:14px/100px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.mtTotal input[type="checkbox"]{width:16px;height:16px;float:left;margin:42px 10px 0px 25px}
+.mtTotal input[type="button"]{width:120px;height:48px;border-radius:4px;cursor:pointer;border:none;color:#fff;font-size:18px;margin:26px 20px 0px 30px;background-color:#ee3a3d;float:right;}
+.mtTotal span{float:right;}
+.mtTotal span font{color:#ee3a3d;font:28px/100px "\5FAE\8F6F\96C5\9ED1";margin:0px 10px;}
+ /* 保养项目服务介绍 */ 
+.mtService{width:100%;height:260px;margin:40px auto 0px auto;background-color:#f5f5f5;}
+.mtService ul{width:1200px;margin:0px auto;height:260px;}
+.mtService ul li{width:400px;float:left;height:64px;padding:32px 0px 32px 0px;position:relative;}
+.mtService ul li span{width:64px;height:64px;background:url("../images/arrow01.png") no-repeat center center scroll;float:left;text-align:center;}
+.mtService ul li p{font:14px/25px "\5FAE\8F6F\96C5\9ED1";color:#666;padding:5px 12px;width:305px;float:left;}
+.mtService ul li b{position:absolute;top:102px;left:0px;width:64px;text-align:center;font:14px/16px "\5FAE\8F6F\96C5\9ED1";}
+.mtService ul li i{font:30px/64px "\5FAE\8F6F\96C5\9ED1";color:#fff}
+/*---- 编辑车辆弹窗  ----*/
+.editDialog{width:760px;height:480px;position:relative;background-color:#fff;margin:0px auto;overflow:hidden;border:#e8e8e8 solid 1px;border-radius:4px;}
+.closeEdit{position:absolute;right:10px;top:10px;color:#999;display:block;width:20px;height:20px;font:16px/20px "\5FAE\8F6F\96C5\9ED1";text-align:center;}
+.closeEdit:hover{background-color:#d22b3d;color:#fff;text-decoration:none;}
+.editDialog h3{font:18px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:20px;}
+.editDialog h3 i{font:30px/45px "\5FAE\8F6F\96C5\9ED1";color:#d22b3d;margin-right:8px;}
+.editSteps{height:40px;background:url("../images/stepsBg.png") no-repeat 0px 0px scroll;margin:0px 0px 0px 20px;}
+.hotBrand{height:auto;overflow:hidden;padding:13px 0px 13px 20px;}
+.hotBrand b{float:left;color:#333;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.hotBrand a{float:left;padding:8px 6px;background-color:#f4f6f5;color:#666;font:bold 12px/12px "\5FAE\8F6F\96C5\9ED1";margin-right:10px;}
+.hotBrand a.selected{background-color:#d22b3d;color:#fff;}
+.hotBrand a:hover{text-decoration:none;}
+.brandList{padding:0px 0px 0px 20px;height:260px;overflow:auto;}
+.brandList span{width:154px;height:48px;float:left;border:#e8e8e8 solid 1px;cursor:pointer;margin:0px 20px 15px 0px;text-align:center;color:#666;font:14px/50px "\5FAE\8F6F\96C5\9ED1";}
+.brandList span.selected{color:#d22b3d;border:#d22b3d solid 1px;}
+.carViewed{height:auto;overflow:hidden;}
+.carViewed p{padding-left:58px;}
+.carViewed p a{color:#999;}
+.carViewed p a:hover{color:#f60;}
+.stepsEnd{height:auto;overflow:hidden;padding:35px 0px 35px 0px;font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:center;}
+.stepsEnd i{color:#87b419;font:36px/40px "\5FAE\8F6F\96C5\9ED1";margin-right:17px;}
+.stepsEnd span{display:inline-block;}
+.carChioced{height:auto;overflow:hidden;padding:35px 0px 35px 0px;font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:center;border-top:#e8e8e8 dotted 1px;}
+.carChioced font{color:#d22b3d;}
+.carSelected{height:auto;overflow:hidden;padding:20px 0px 20px 20px;}
+.carSelected b{font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-right:10px;float:left;}
+.carSelected span{border:#d22b3d solid 2px;float:left;padding:3px 12px;}
+.carSelected span i{color:#999;margin:0px 0px 0px 12px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";cursor:pointer;}
+.brandTypes{height:30px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;padding-left:15px;border-left:#d22b3d solid 3px;margin:0px 20px 15px 20px;background-color:#f3f3f3;}
+
+/* 门店展示 */
+.shopShow{width:1200px;height:auto;overflow:hidden;margin:0px auto;}
+/* 门店图片展示 */
+#proPhotos{position:relative;width:265px;height:350px;float:left}
+.bigImg{position:relative;width:263px;height:263px;border:#dcdcdc solid 1px;}
+.bigImg img{width:100%;}
+.zoomDrag{position:absolute;top:0;left:0;background-color:#ccc;opacity:.4;filter:alpha(opacity=40);cursor:move}
+.MagnifierPop{position:absolute;top:0;width:263px;height:263px;overflow:hidden;background:#fff url(images/loading.gif) no-repeat center center;border:#dcdcdc solid 1px;}
+.viewBigImg{position:absolute;top:0;left:0}
+.proItems{position:relative;width:220px;height:74px;overflow:hidden;padding-top:10px;margin:0 auto 0px auto;overflow:hidden;}
+.proItems ul{width:500%;position:absolute;top:16px;left:5px}
+.proItems ul *{-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s}
+.proItems li{width:62px;height:62px;float:left;overflow:hidden;margin-right:6px;border:2px solid #dcdcdc;cursor:pointer}
+.proItems li.on{border:2px solid #f60}
+.proItems li img{width:100%;-webkit-transform:scale(1,1);-ms-transform:scale(1,1);-o-transform:scale(1,1);transform:scale(1,1)}
+.proItems li.on img{-webkit-transform:scale(1.2,1.2);-ms-transform:scale(1.2,1.2);-o-transform:scale(1.2,1.2);transform:scale(1.2,1.2)}
+.nextBtn,.prevBtn{position:absolute;top:280px;display:block;width:20px;height:66px;line-height:66px;font-family:"黑体";text-align:center;font-size:30px;color:#ddd;cursor:default;background-color:#f9f9f9}
+.nextBtn.on,.prevBtn.on{background-color:#ccc;color:#999;cursor:pointer}
+.prevBtn{left:0}
+.nextBtn{right:0;}
+/* 门店信息 */
+.shopInfo{width:530px;float:left;padding-left:30px;}
+.shopInfo h2{font:20px/50px "\5FAE\8F6F\96C5\9ED1";color:#000;border-bottom:#dcdcdc dashed 1px;overflow:hidden;}
+.shopInfo p{font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.shopScore{font:14px/36px "\5FAE\8F6F\96C5\9ED1";padding:10px 0px;height:auto;overflow:hidden;}
+.shopScore b{color:#666;font:14px/36px "\5FAE\8F6F\96C5\9ED1";}
+.shopScore i{color:#999}
+.shopScore i.on{color:#f60;}
+.shopScore span{float:right;}
+.shopScore span font{color:#ab0f14}
+.bookMaintain{height:auto;overflow:hidden;padding-top:14px;}
+.bookMaintain input{height:45px;border:none;border-radius:3px;background-color:#c41b20;cursor:pointer;box-sizing:content-box;color:#fff;padding:0px 35px;font-size:16px;margin-right:15px;}
+.bookMaintain input.sendCode{height:41px;border:#c41b20 solid 2px;color:#c41b20;padding:0px 31px;background-color:#fff;}
+.shopLocation{width:340px;height:340px;border:#dcdcdc solid 1px;float:right;}
+/* 服务列表 */
+.serviceList{width:1198px;height:auto;overflow:hidden;margin:45px auto 0px auto;border:#dcdcdc solid 1px;}
+.serviceList h2{height:48px;background-color:#f7f7f7;font:16px/48px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:30px;border-bottom:#dcdcdc solid 1px}
+.serviceList ul{padding:0px 15px 0px 15px;height:auto;overflow:hidden;}
+.serviceList ul li{padding:20px 0px 10px 124px;height:auto;overflow:hidden;position:relative;border-bottom:#dcdcdc dashed 1px;}
+.serviceList ul li b{width:120px;text-align:right;display:block;position:absolute;top:20px;left:0px;font:16px/35px "\5FAE\8F6F\96C5\9ED1";color:#000}
+.serviceList ul li a{font:14px/35px "\5FAE\8F6F\96C5\9ED1";display:inline-block;color:#999;margin-right:20px;}
+.serviceList ul li a:hover{color:#f60;}
+/*---- 店铺评分----*/
+.shopComment{width:1198px;height:auto;overflow:hidden;margin:25px auto 0px auto;border:#dcdcdc solid 1px;position:relative;}
+.shopComment h2{height:48px;background-color:#f7f7f7;font:16px/48px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:30px;border-bottom:#dcdcdc solid 1px}
+.comContent{padding:0px 15px 0px 15px;height:auto;overflow:hidden;}
+.comContent li{height:auto;overflow:hidden;padding:0px 0px 0px 130px;margin-top:15px;position:relative;border-bottom:#dcdcdc dashed 1px;}
+.userPhoto{position:absolute;left:15px;top:9px}
+.userName{position:absolute;top:105px;left:15px;width:88px;display:block;text-align:center;color:#666;font:14px/14px "\5FAE\8F6F\96C5\9ED1";}
+.comBtn{position:absolute;top:4px;right:5px;width:180px;height:40px;font-size:16px;border:none;cursor:pointer;background-color:#c41b20;color:#fff}
+.scoreArea{height:30px;overflow:hidden;}
+.scoreArea b{font:15px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.scoreArea i{}
+.scoreArea i{color:#999;font:18px/30px "\5FAE\8F6F\96C5\9ED1";}
+.scoreArea i.on{color:#f60;}
+.scoreArea span{float:right;color:#999;font:15px/30px "\5FAE\8F6F\96C5\9ED1";}
+.scoreList{height:38px;overflow:hidden;padding:5px 0px 0px 0px;}
+.scoreList span{width:140px;float:left;}
+.comTxt{font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.comImgShow{height:auto;overflow:hidden;margin-top:20px;}
+.comImgShow span{width:50px;height:50px;border:#dcdcdc solid 2px;padding:1px;float:left;margin-right:10px;}
+.comImgShow span.on{border:#f60 solid 2px;}
+.replyBtn{text-align:right;height:auto;overflow:hidden;padding:15px 0px 15px 0px;}
+.replyBtn span{display:inline-block;width:76px;cursor:pointer;height:26px;text-align:center;border:#dcdcdc solid 1px;font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#666;margin:0px 6px;}
+
+/*-- 门店位置 ---*/
+.shopAreaList{width:1198px;height:auto;overflow:hidden;margin:0px auto;border:#dcdcdc solid 1px;}
+.changeProvice{height:45px;background-color:#f7f7f7;font:12px/45px "\5FAE\8F6F\96C5\9ED1";border-bottom:#dcdcdc solid 1px;padding-left:30px;}
+.changeProvice b{font:16px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.changeProvice font{float:right;margin-right:15px;color:#999;}
+.areaLists{width:1168px;height:auto;overflow:hidden;padding:15px 0px 0px 30px;}
+.areaLists a{width:136px;text-align:left;float:left;font:13px/13px "\5FAE\8F6F\96C5\9ED1";margin-bottom:15px;color:#666;}
+.areaLists a:hover{color:#c31b21;}
+.areaLists a.selected{color:#c31b21;}
+/* 地图上门店位置 */
+.shopMap{height:auto;overflow:hidden;margin:0px auto;width:1198px;border:#dcdcdc solid 1px;}
+.myCollection{height:45px;background-color:#f7f7f7;font:12px/45px "\5FAE\8F6F\96C5\9ED1";border-bottom:#dcdcdc solid 1px;padding-left:30px;position:relative;}
+.myCollection b{font:16px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.mapSearch{position:absolute;top:6px;left:200px;border:#ba060b solid 1px;height:31px;background-color:#fff;font:12px/32px "\5FAE\8F6F\96C5\9ED1";padding-left:15px;}
+.mapSearch input[type="text"]{width:290px;height:20px;border:#fff solid 1px;margin-top:5px;border-left:#dcdcdc solid 1px;padding-left:5px;box-sizing:content-box;float:left;}
+.mapSearch b{font:12px/32px "\5FAE\8F6F\96C5\9ED1";color:#666;float:left;}
+.mapSearch input[type="button"]{width:60px;height:31px;border:#ba060b solid 1px;color:#fff;font-size:14px;cursor:pointer;background-color:#ba060b;float:left;}
+.shopSort{width:200px;float:right;}
+.shopSort a{width:60px;height:30px;text-align:center;color:#666;display:inline-block;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.shopSort a.on{color:#f2b438;border:#f2b438 dashed 1px;}
+.shopSort a:hover{text-decoration:none;}
+/* 店铺所在地图位置 */
+.mapArea{width:1198px;height:760px;overflow:hidden;}
+.mapLeft{height:760px;width:760px;float:left;border-right:#dcdcdc solid 1px;}
+.mapRight{width:420px;height:760px;overflow:auto;float:right;}
+.mapRight li{height:auto;overflow:hidden;padding:18px 0px;border-bottom:#dcdcdc dashed 1px;}
+.mapRight li{}
+.shopNames{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#0c75dd;display:block;margin-bottom:12px;}
+.shopImgs{float:left;border:#dcdcdc solid 1px;}
+.mapRight li p{width:308px;float:left;padding-left:12px;}

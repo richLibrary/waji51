@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*---- 论坛个人空间 ----*/
+.userZone{width:1200px;height:auto;overflow:hidden;margin:0px auto;}
+.bbsAuthor{width:888px;height:112px;background-color:#fff;border:#dcdcdc solid 1px;float:left;position:relative;}
+.bbsAuthor img{border:#dcdcdc solid 1px;margin:10px;padding:5px;}
+.bbsAuthor h2{height:40px;overflow:hidden;font:25px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;position:absolute;top:12px;left:122px;}
+.bbsAuthor p{position:absolute;top:70px;left:122px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.bbsAuthor p font{color:#333;}
+.bbsListTit{width:888px;height:42px;background-color:#f8f8f8;border:#dcdcdc solid 1px;float:left;position:relative;margin-top:20px}
+.bbsListTit a{display:inline-block;float:left;width:130px;color:#333;font:14px/38px "\5FAE\8F6F\96C5\9ED1";text-align:center;border-left:#f8f8f8 solid 1px;border-right:#f8f8f8 solid 1px;border-bottom:#f1f1f1 solid 1px;border-top:#f8f8f8 solid 3px;}
+.bbsListTit a.on{background-color:#fff;border-left:#f1f1f1 solid 1px;color:#f90;font:14px/39px "\5FAE\8F6F\96C5\9ED1";border-right:#dcdcdc solid 1px;border-bottom:#fff solid 1px;border-top:#f90 solid 3px;}
+.bbsListTit a:hover{text-decoration:none;}
+.bbsListTxt{height:auto;overflow:hidden;width:890px;background-color:#fff;float:left}
+.bbsListTxt li{height:auto;overflow:hidden;background-color:#fff;padding:20px 20px;border-bottom:#dcdcdc solid 1px;}
+.bbsListTxt li.on{background-color:#f9f9f9;}
+.bbsListTxt li img{border:#ddd solid 1px;float:left;}
+.bbsTitle{width:560px;font:16px/20px "\5FAE\8F6F\96C5\9ED1";height:20px;overflow:hidden;display:inline-block;float:left;padding-left:20px;color:#333}
+.bbsTitle:hover{text-decoration:none;color:#f90;}
+.repairInfo{width:560px;font:12px/18px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;padding:15px 0px 0px 20px;}
+.repairInfo b{background-color:#999;color:#fff;padding:0px 5px;display:inline-block;font:12px/18px "\5FAE\8F6F\96C5\9ED1";margin-right:20px;}
+.bbsTxt{width:560px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;padding:12px 0px 0px 20px;float:left;height:66px;overflow:hidden;}
+.bbsShare{width:560px;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;padding:12px 0px 10px 20px;float:left;}
+.bbsShare font{color:#333;}
+.bbsShare span{float:right;}
+.userInfo{width:258px;padding:0px 15px;height:400px;border:#dcdcdc solid 1px;overflow:hidden;float:right;background-color:#fff;text-align:center;margin-top:-178px;}
+.userInfo img{border:#dcdcdc solid 1px;margin:20px 0px 0px 0px;padding:5px;}
+.userInfo h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.myCar{height:auto;overflow:hidden;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.myCar b{color:#999;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.myCar span{width:210px;float:right;text-align:left;}
+.myFeeling{border-top:#eee solid 1px;height:auto;overflow:hidden;margin-top:20px;}
+.myFeeling a{width:50%;float:left;height:85px;}
+.myFeeling font{display:block;text-align:center;font:22px/53px "\5FAE\8F6F\96C5\9ED1";color:#f60;}
+.myFeeling b{display:block;text-align:center;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.myFeeling a:hover{text-decoration:none;}
+.sendMsg{width:230px;height:36px;background-color:#f60;color:#fff;cursor:pointer;font-size:14px;border:none;border-radius:4px;margin-top:5px;}
+.hotShow{width:288px;height:auto;overflow:hidden;margin-top:20px;border:#dcdcdc solid 1px;border-bottom:none;overflow:hidden;float:right;background-color:#fff;}
+.hotShow h2{font:16px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:10px;border-bottom:#dcdcdc solid 1px;background-color:#f9f9f9;}
+.hotShow h2 i{color:#f60;margin-right:8px;font:18px/42px "\5FAE\8F6F\96C5\9ED1";}
+.hotShow ul{height:auto;overflow:hidden;}
+.hotShow ul li{height:auto;overflow:hidden;padding:10px 10px;border-bottom:#dcdcdc solid 1px;}
+.hotShow ul li img{float:left;border:#dcdcdc solid 1px;float:left;margin:0px 12px 0px 0px;}
+.feelingTit{font:12px/15px "\5FAE\8F6F\96C5\9ED1";color:#000;overflow:hidden;}
+.hotShow ul li p{font:2px/16px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-top:7px;}
+.hotShow ul li span{display:block;color:#999;padding-top:7px;}
+.hotShow ul li span a{color:#333;margin-right:10px;}
+.hotShow ul li a:hover{color:#f60;}

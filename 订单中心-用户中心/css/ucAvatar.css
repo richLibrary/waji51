@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+/* 修改头像 */}
+.portrait{height:auto;overflow:hidden;}
+.portrait h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.portrait p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.preview{ height: auto; overflow: hidden; margin-top: 50px;width: 218px;}
+.preview h2{ text-align: center;font: 12px/20px "\5FAE\8F6F\96C5\9ED1"; color: #999999;}
+.preview p{text-align: center; color: #999999;margin-top: 15px;}
+.loadImages{ width: 670px; height: auto; overflow: hidden;position: absolute; right: 0; top: 115px;}
+.loadImages a{background: #fafafa none repeat scroll 0 0;border: 1px solid #ddd;color: #666;display:block;height: 33px;line-height: 33px;position: relative;text-align: center;width: 96px;text-decoration: none;}
+.upLoad{width: 96px; height: 33px;opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); border: 1px solid #e4e4e4; position: absolute;left: 0; right: 0;cursor: pointer;}
+.loadText{ color: #999999; margin-top: 8px}
+.loadSelect{ margin-top: 25px;}
+.loadPhoto{display: inline-block; width: 50px; height: auto;border-radius: 4px; padding: 2px; margin: 5px;cursor: pointer;}
+.loadPhoto b{ text-align: center; height: 20px;font: 12px/20px "\5FAE\8F6F\96C5\9ED1";display: block;}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+	<meta charset="utf-8" />
+	<title>个人中心-挖机商城</title>
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+
+<div class="paginator"><div>
+	<a class="firstbg" disabled="disabled">&lt;</a>
+	<span class="this-page">1</span>
+	<a href="/Order/OrderList?pager=2&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">2</a>
+	<a href="/Order/OrderList?pager=3&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">3</a>
+	<a href="/Order/OrderList?pager=4&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">4</a>
+	<a href="/Order/OrderList?pager=5&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">5</a>
+	<a href="/Order/OrderList?pager=6&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">6</a>
+	<a disabled="disabled">...</a><a href="/Order/OrderList?pager=54&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">54</a>
+	<a class="firstbg" href="/Order/OrderList?pager=2&amp;Type=-2&amp;orderno=&amp;status=-2&amp;PayType=0">&gt;</a>
+	<span class="num fd-left mt5">页码:</span> <input class="txt8 fd-left mr5" id="index" name="" type="text"><a class="gray-btn fd-left" href="#" onclick="javascript:goPage($('#index').val())">转到</a>
+<script type="text/javascript">
+function goPage(pageindex)
+{
+    var pageCount = 54;
+    if(pageindex==''||isNaN(pageindex)||pageindex<=0||pageindex>pageCount)
+    {
+        return;
+    }
+    else
+    {
+        
+        var url = '/Order/OrderList?pager=$pageindex&Type=-2&orderno=&status=-2&PayType=0';
+        url = url.replace('$pageindex',pageindex);
+        location.href = url;
+        
+    }
+}
+</script>
+</div></div>
+
+
+<style type="text/css">
+.paginator{height:auto;overflow:hidden;text-align:center;padding:30px 0;}
+.paginator input{width:40px;height:26px;text-align:center;}
+.paginator a{border:#dcdcdc solid 1px;padding:6px 12px;background-color:#fff;color:#666;display:inline-block;margin:0 6px;text-decoration:none}
+.paginator a:hover{border:#f60 solid 1px;color:#f60}
+.paginator .this-page{border:#f60 solid 1px;padding:6px 10px;background-color:#f60;color:#fff;display:inline-block;margin:0 1px;font-weight:700}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#fullPage').fullpage(
+		{
+		/*sectionsColor: ['#fff', '#b1ddc4', '#7BAABE', '#f90'],*/
+		'navigation': true
+		}
+		
+		
+	);
+	//品牌切换选显卡
+	jQuery(".brandTab").slide({ titCell:".brandTit li", mainCell:".brandTxt",delayTime:0,effect:"left",trigger:"click"});
+
+})
+</script>
+</body>
+</html>

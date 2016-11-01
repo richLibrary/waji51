@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+	<meta charset="utf-8" />
+	<title>个人中心-挖机商城</title>
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />	
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />	
+	<link rel="stylesheet" href="css/maintain.css" type="text/css" />	
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<style>
+	.editSteps {background:#F3F3F3 url("../images/stepsBg.png") no-repeat scroll 0 0;height: 40px;width: 723px;}
+	.editSteps li{ float: left; width:185px; height: 40px; font: 16px/40px "\5FAE\8F6F\96C5\9ED1";text-align: center;color: #999;cursor: pointer;}
+	.editSteps li.on{background:#FFFFFF url(images/subv.png) no-repeat 157px 0 scroll;color: #c51c22;}
+	.editSteps li i{font-size: 21px; margin: 0 10px;}
+	.cur{background: url(images/subv1.png) no-repeat 157px 0 scroll;color: #FFFFFF;}
+</style>
+<body style="background-color:#fff;">
+<!---- 个人中心面包屑导航 ---->
+<ul class="editSteps">
+	<li class="on cur"><i class="iconfont">&#xe60a;</i>选择品牌</li>
+	<li class="cur"><i class="iconfont">&#xe60b;</i>选择车系</li>
+</ul>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".editSteps li").click(function(){
+		$(this).addClass("on")
+		$(this).siblings().removeClass("on")
+	})
+	
+})
+</script>
+</body>
+</html>

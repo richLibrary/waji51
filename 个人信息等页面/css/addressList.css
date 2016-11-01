@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*-- 我的收获地址 ---*/
+.addWelcom{height:auto;overflow:hidden;}
+.addWelcom h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.addWelcom p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.addWelcom p a{color:#f60;margin:0px 5px;}
+/*-- 我的收获地址 ---*/
+.addressList{width:900px;height:auto;overflow:hidden;margin-top:30px;padding-top:25px;}
+.addressList li{width:278px;height:170px;border:#e8e8e8 solid 2px;float:left;margin-right:18px;padding-top:5px;position:relative;margin-bottom:15px;}
+.addressList li p{padding:0px 20px;font:13px/20px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:10px;}
+.addressList li b{display:block;font:16px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:20px;}
+.addressList li span{position:absolute;bottom:10px;right:20px;display:none;}
+.addressList li span a{color:#e6393d;margin-left:15px;}
+.addressList li.hover span{display:block;}
+.addressList li.selected{border:#e6393d solid 2px;background:url("../images/selected02.png") no-repeat right bottom scroll;}
+/*-- 添加新收获地址按钮 ---*/
+.newAddress a{margin:0px;width:278px;height:128px;position:absolute;top:0px;left:0px;text-align:center;padding-top:45px}
+.newAddress a i{color:#767676;font-size:30px;margin-bottom:5px;}
+.newAddress a strong{width:278px;color:#666;display:block;text-align:center;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.newAddress a:hover{text-decoration:none;}
+/*-- 添加新收获地址内容 ---*/
+.addTit{font:16px/30px "\5FAE\8F6F\96C5\9ED1";color:#f60;padding-top:25px;}
+.addAddress{height:auto;overflow:hidden;display:none;border-top:#dcdcdc solid 1px}
+.addAddress li{margin-top:20px;height:auto;overflow:hidden;}
+.addAddress li i{width:100px;font:14px/37px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;text-align:right;padding-right:10px;}
+.addAddress li input[type="text"]{width:310px;padding:0px 0px 0px 8px;box-sizing:content-box;height:35px;font-size:14px;border:#dcdcdc solid 1px;border-radius:4px;}
+.addAddress li span{padding-left:10px;color:#f60;}
+.addAddress li select{height:35px;border:#dcdcdc solid 1px;margin-right:8px;border-radius:4px;}
+.addAddress li.addDets i{font:14px/14px "\5FAE\8F6F\96C5\9ED1";}
+.addAddress li.addDets textarea{width:302px;height:90px;border:#dcdcdc solid 1px;border-radius:4px;padding:8px;float:left;}
+.addAddress li.addBtn{padding-left:110px;}
+.addBtn input{width:130px;height:38px;background-color:#f60;color:#fff;font-size:14px;border-radius:4px;border:none;cursor:pointer;margin-right:25px;}
+.addBtn input.cancel{background-color:#999;}

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="zh">
+	<meta charset="utf-8">
+	<title>购物车</title>
+	<meta name="Keywords" content="关键词">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="Description" content="我是网页的描述sss">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="css/shopCart.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body style="background-color:#f2f2f2;">
+<!---- 购物车头部 ---->
+<div class="cartTop">
+	<h2>我的购物车</h2>
+	<div class="cartSteps">
+		<p><i style="width:93px;"></i></p>
+		<ul>
+			<li class="step01 on">我的购物车</li>
+			<li class="step02">确认订单信息</li>
+			<li>成功提交订单</li>
+		</ul>
+	</div>
+</div>
+<!---- 购物车头部 ---->
+<div class="cartMain">
+	<p class="discountInfo"><i>满送</i>&nbsp;&nbsp;&nbsp;&nbsp;满549元,送20元优惠券&nbsp;&nbsp;&nbsp;&nbsp;满349元,送10元优惠券&nbsp;&nbsp;&nbsp;&nbsp;满249元,送5元优惠券</p>
+	<ul class="cartList">
+		<li class="tit">
+			<span class="cartCheck"><input type="checkbox" name=""/>全选</span>
+			<span class="cartPro">商品信息</span>
+			<span class="specPro">规格</span>
+			<span class="proPrice">单价</span>
+			<span class="proCount">数量</span>
+			<span class="subtotal">小计</span>
+			<span class="cartHandle">操作</span>
+		</li>
+		<li class="txt">
+			<span class="cartCheck"><input type="checkbox" name=""/></span>
+			<span class="cartPro">
+				<a href="#" title="商品信息" target="_blank">
+					<img src="" width="78" height="78" alt="商品名称" title="商品名称" />
+				</a>
+				<a href="#" class="proName" title="商品信息" target="_blank">活力男孩 汽车钥匙扣 男士钥匙链【不锈钢钥匙圈 真皮挂件用品】 Y-A04</a>
+				<i class="proNum">商品编号：123456789987456123-wwwww</i>
+			</span>
+			<span class="specPro">金色</span>
+			<span class="proPrice">&yen; 38.00</span>
+			<span class="proCount">
+				<a class="iconfont" href="javascript:void(0)" title="减"/>&#xe611;</a>
+				<input type="text" value="1" />
+				<a class="iconfont" href="javascript:void(0)" title="加"/>&#xe610;</a>
+			</span>
+			<span class="subtotal">&yen; 38.00</span>
+			<span class="cartHandle"><a href="javascript:void(0)" title="删除" target="_blank">删除</a></span>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+		</li>
+		<li class="txt">
+			<span class="cartCheck"><input type="checkbox" name=""/></span>
+			<span class="cartPro">
+				<a href="#" title="商品信息" target="_blank">
+					<img src="" width="78" height="78" alt="商品名称" title="商品名称" />
+				</a>
+				<a href="#" class="proName" title="商品信息" target="_blank">活力男孩 汽车钥匙扣 男士钥匙链【不锈钢钥匙圈 真皮挂件用品】 Y-A04</a>
+				<i class="proNum">商品编号：123456789987456123-wwwww</i>
+			</span>
+			<span class="specPro">金色</span>
+			<span class="proPrice">&yen; 38.00</span>
+			<span class="proCount">
+				<a class="iconfont" href="javascript:void(0)" title="减"/>&#xe611;</a>
+				<input type="text" value="1" />
+				<a class="iconfont" href="javascript:void(0)" title="加"/>&#xe610;</a>
+			</span>
+			<span class="subtotal">&yen; 38.00</span>
+			<span class="cartHandle"><a href="javascript:void(0)" title="删除" target="_blank">删除</a></span>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+		</li>
+		<li class="txt fail">
+			<span class="cartCheck"><input type="checkbox" name=""/></span>
+			<span class="cartPro">
+				<a href="#" title="商品信息" target="_blank">
+					<img src="" width="78" height="78" alt="商品名称" title="商品名称" />
+				</a>
+				<a href="#" class="proName" title="商品信息" target="_blank">活力男孩 汽车钥匙扣 男士钥匙链【不锈钢钥匙圈 真皮挂件用品】 Y-A04</a>
+				<i class="proNum">商品编号：123456789987456123-wwwww</i>
+			</span>
+			<span class="specPro">金色</span>
+			<span class="proPrice">&yen; 38.00</span>
+			<span class="proCount">
+				<a class="iconfont" href="javascript:void(0)" title="减"/>&#xe611;</a>
+				<input type="text" value="1" />
+				<a class="iconfont" href="javascript:void(0)" title="加"/>&#xe610;</a>
+			</span>
+			<span class="subtotal">&yen; 38.00</span>
+			<span class="cartHandle"><a href="javascript:void(0)" title="删除" target="_blank">删除</a></span>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+			<p class="giftPro">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+		</li>
+	</ul>
+	<div class="cartOp">
+		<input type="checkbox" name=""/><em>全选</em><a href="javascript:void(0)" title="删除选择商品">删除选择商品</a>
+		<a href="javascript:void(0)" title="清除已失效商品">清除已失效商品</a>
+		<span>
+			已选择商品<font>３</font>件　应付总额（不含运费）：<font>￥364</font>
+			<input type="button" value="去结算" />
+		</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	//控制购物车列表样式
+	$(".cartList li:last").css("border-bottom","none")
+});
+</script>
+</body>
+</html>

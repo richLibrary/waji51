@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*---- 热门保养 ----*/
+.hotMaintain{width:1200px;height:auto;overflow:hidden;margin:0px auto;}
+.hmLeft{width:888px;height:400px;float:left;background-color:#fff;border:#dcdcdc solid 1px;}
+.hmLeft h2{font:18px/70px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:20px;}
+.hmLeft h2 font{font:12px/70px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.hotTab{padding:0px 20px;height:300px;overflow:hidden;position:relative;}
+.hotTabFocus{z-index:1;}
+.hotTabFocus li{position:relative;height:300px;overflow:hidden;padding-left:478px;width:370px;}
+.hotTabFocus li img{position:absolute;top:0px;left:0px;}
+.prev,.next{width:42px;height:75px;color:#fff;top:112px;background-color:#000;position:absolute;filter:alpha(opacity=35);-moz-opacity:0.35;opacity:0.35;text-align:center;z-index:99}
+.prev a,.next a{color:#fff;display:block;font:26px/75px "\5FAE\8F6F\96C5\9ED1";}
+.prev{left:0px;}
+.next{right:0px;}
+.prev a:hover,.next a:hover{text-decoration:none;}
+.hotBbsName{font:18px/50px "\5FAE\8F6F\96C5\9ED1";color:#f60;overflow:hidden;height:50px;display:inline-block;}
+.hotTabFocus li font{display:block;border-bottom:#dcdcdc dashed 1px;padding-bottom:8px;}
+.hotTabFocus li p{font:14px/25px "\5FAE\8F6F\96C5\9ED1";color:#333;height:175px;overflow:hidden;padding-top:10px;}
+.hotTabFocus li span{display:block;text-align:right;font:14px/14px "\5FAE\8F6F\96C5\9ED1";padding:10px 10px 0px 0px}
+.hotTabFocus li span a{color:#058dd1;}
+.hmRight{width:258px;padding:0px 15px;height:400px;overflow:hidden;border:#dcdcdc solid 1px;overflow:hidden;float:right;background-color:#fff;text-align:center;}
+.hmRight img{border:#dcdcdc solid 1px;margin:20px 0px 0px 0px;padding:5px;}
+.hmRight h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.myCar{height:auto;overflow:hidden;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.myCar b{color:#999;font:14px/30px "\5FAE\8F6F\96C5\9ED1";}
+.myCar span{width:210px;float:right;text-align:left;}
+.myFeeling{border-top:#eee solid 1px;height:auto;overflow:hidden;margin-top:20px;}
+.myFeeling a{width:50%;float:left;height:85px;}
+.myFeeling font{display:block;text-align:center;font:22px/53px "\5FAE\8F6F\96C5\9ED1";color:#f60;}
+.myFeeling b{display:block;text-align:center;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.myFeeling a:hover{text-decoration:none;}
+.sendMsg{width:230px;height:36px;background-color:#f60;color:#fff;cursor:pointer;font-size:14px;border:none;border-radius:4px;margin-top:5px;}
+/*---- 热门保养帖子筛选 ----*/
+.hotBbsSort{width:1198px;height:auto;overflow:hidden;margin:20px auto 0px auto;background-color:#fff;border:#dcdcdc solid 1px;}
+.hotBbsTit{height:42px;background-color:#f8f8f8;border-bottom:#dcdcdc solid 1px;position:relative;}
+.hotBbsTit a{display:inline-block;float:left;width:130px;color:#333;font:14px/38px "\5FAE\8F6F\96C5\9ED1";text-align:center;border-left:#f8f8f8 solid 1px;border-right:#f8f8f8 solid 1px;border-bottom:#f1f1f1 solid 1px;border-top:#f8f8f8 solid 3px;}
+.hotBbsTit a.on{background-color:#fff;border-left:#dcdcdc solid 1px;color:#f90;font:14px/39px "\5FAE\8F6F\96C5\9ED1";border-right:#dcdcdc solid 1px;border-bottom:#fff solid 1px;border-top:#f90 solid 3px;}
+.hotBbsTit a:hover{text-decoration:none;}
+.hotBbsTxt{height:97px;overflow:hidden;padding:25px 20px 10px 25px;}
+.hotBbsTxt ul{height:97px;overflow:hidden;display:none;}
+.hotBbsTxt ul.on{display:block;}
+.hotBbsTxt li{height:16px;overflow:hidden;margin-bottom:15px;}
+.hotBbsTxt li b{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.hotBbsTxt li a{color:#36c;font:12px/14px "\5FAE\8F6F\96C5\9ED1";margin-right:15px;display:inline-block;}
+/*---- 精选帖子列表 ----*/
+.bbsList{width:1200px;height:auto;overflow:hidden;margin:20px auto 0px auto;}
+.bbsListTxt{height:auto;overflow:hidden;width:890px;background-color:#fff;float:left}
+.bbsListTxt li{height:auto;overflow:hidden;background-color:#fff;padding:20px 20px;border-bottom:#dcdcdc solid 1px;}
+.bbsListTxt li.on{background-color:#f9f9f9;}
+.bbsListTxt li img{border:#ddd solid 1px;float:left;}
+.bbsTitle{width:560px;font:16px/20px "\5FAE\8F6F\96C5\9ED1";height:20px;overflow:hidden;display:inline-block;float:left;padding-left:20px;color:#333}
+.bbsTitle:hover{text-decoration:none;color:#f90;}
+.repairInfo{width:560px;font:12px/18px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;padding:15px 0px 0px 20px;}
+.repairInfo b{background-color:#999;color:#fff;padding:0px 5px;display:inline-block;font:12px/18px "\5FAE\8F6F\96C5\9ED1";margin-right:20px;}
+.bbsTxt{width:560px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;padding:12px 0px 0px 20px;float:left;height:66px;overflow:hidden;}
+.bbsShare{width:560px;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;padding:12px 0px 10px 20px;float:left;}
+.bbsShare font{color:#333;}
+.bbsShare span{float:right;}
+/*---- 热门晒单 ----*/
+.hotShow{width:288px;height:auto;border:#dcdcdc solid 1px;border-bottom:none;overflow:hidden;float:right;background-color:#fff;}
+.hotShow h2{font:16px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:10px;border-bottom:#dcdcdc solid 1px;background-color:#f9f9f9;}
+.hotShow h2 i{color:#f60;margin-right:8px;font:18px/42px "\5FAE\8F6F\96C5\9ED1";}
+.hotShow ul{height:auto;overflow:hidden;}
+.hotShow ul li{height:auto;overflow:hidden;padding:10px 10px;border-bottom:#dcdcdc solid 1px;}
+.hotShow ul li img{float:left;border:#dcdcdc solid 1px;float:left;margin:0px 12px 0px 0px;}
+.feelingTit{font:12px/15px "\5FAE\8F6F\96C5\9ED1";color:#000;overflow:hidden;}
+.hotShow ul li p{font:2px/16px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-top:7px;}
+.hotShow ul li span{display:block;color:#999;padding-top:7px;}
+.hotShow ul li span a{color:#333;margin-right:10px;}
+.hotShow ul li a:hover{color:#f60;}
+/*---- 活跃用户 ----*/
+.activeUser{width:288px;height:auto;overflow:hidden;border:#dcdcdc solid 1px;float:right;background-color:#fff;margin-top:20px;}
+.activeUser h2{font:16px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:10px;border-bottom:#dcdcdc solid 1px;background-color:#f9f9f9;}
+.activeUser ul{height:auto;overflow:hidden;padding-top:12px;}
+.activeUser ul li{float:left;margin:0px 0px 8px 8px;}
+.activeUser ul li img{border:#eee solid 1px;}

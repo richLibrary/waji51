@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+	<meta charset="utf-8" />
+	<title>个人中心-挖机商城</title>
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	
+	<link rel="stylesheet" href="http://testui.yangdou.com/project/userCenter/css/common.css" type="text/css" />
+	
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	
+	<link rel="stylesheet" href="http://testui.yangdou.com/project/userCenter/css/ucIndex.css" type="text/css" />
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body style="background-color:#f2f2f2;">
+<!---- 个人中心面包屑导航 ---->
+<div class="ucBreads">您现在的位置：<a href="#" title="" target="_self">首页</a><code>&gt;</code>个人中心</div>
+<!---- 个人中心面包屑导航 ---->
+<div class="ucMain">
+	<div class="leftSide">
+		<div class="userPhoto">
+			<a href="#" title="个人中心" target="_self">
+				<img src="images/testimg/test01.png" width="118" height="118" />
+			</a>
+			<b>用户中心/用户名</b>
+		</div>
+		<!--- 个人中心左侧菜单 --->
+		<ul>
+			<li>
+				<h2>订单中心</h2>
+				<a href="#" title="全部订单" target="_self">全部订单</a>
+				<a href="#" title="待支付" target="_self">待支付</a>
+				<a href="#" title="待发货" target="_self">待发货</a>
+				<a href="#" title="待收货" target="_self">待收货</a>
+				<a href="#" title="待评价" target="_self">待评价</a>
+				<a href="#" title="已关闭" target="_self">已关闭</a>
+			</li>
+			<li>
+				<h2>账号管理</h2>
+				<a href="#" title="个人信息" target="_self">个人信息</a>
+				<a href="#" title="收货地址" target="_self">收货地址</a>
+				<a href="#" title="优惠券" target="_self">优惠券</a>
+				<a href="#" title="积分" target="_self">积分</a>
+				<a href="#" title="账号安全" target="_self">账号安全</a>
+				<a href="#" title="已关闭" target="_self">已关闭</a>
+			</li>
+			<li>
+				<h2>车管家</h2>
+				<a href="#" title="车辆管理" target="_self">车辆管理</a>
+				<a href="#" title="新增车辆" target="_self">新增车辆</a>
+			</li>
+			<li>
+				<h2>论坛管理</h2>
+				<a href="#" title="我的发帖" target="_self">我的发帖</a>
+				<a href="#" title="我的评论" target="_self">我的评论</a>
+				<a href="#" title="我的私信" target="_self">我的私信</a>
+			</li>
+			<li>
+				<h2>系统消息</h2>
+				<a href="#" title="系统通知" target="_self">系统通知</a>
+				<a href="#" title="网站公告" target="_self">网站公告</a>
+			</li>
+		</ul>
+	</div>
+	<!--- 右侧 --->
+	<div class="rightSide">
+		<!--- 欢迎登录 --->
+		<div class="userWelcom">
+			<h1>用户中心</h1>
+			<p>亲爱的<a href="#" target="_self">用户名，很长的用户名</a><span class="ucGreet"></span></p>
+		</div>
+		<!--- 订单快捷菜单 --->
+		<div class="orderFast">
+			<a class="orderSt01" href="#" title="待支付订单" target="_self">
+				<span class="foIcon">
+					<i class="iconfont">&#xe623;</i>
+					<font>0</font>
+				</span>
+				<span class="foTit">待支付订单</span>
+				<span class="foHover">查看待支付订单<i class="iconfont">&#xe626;</i></span>
+			</a>
+			<a class="orderSt02" href="#" title="待收货订单" target="_self">
+				<span class="foIcon">
+					<i class="iconfont">&#xe61e;</i>
+					<font>0</font>
+				</span>
+				<span class="foTit">待收货订单</span>
+				<span class="foHover">查看待收货订单<i class="iconfont">&#xe626;</i></span>
+			</a>
+			<a class="orderSt03" href="#" title="待评价商品" target="_self">
+				<span class="foIcon">
+					<i class="iconfont">&#xe624;</i>
+					<font>0</font>
+				</span>
+				<span class="foTit">待评价商品</span>
+				<span class="foHover">查看待评价商品<i class="iconfont">&#xe626;</i></span>
+			</a>
+			<a class="orderSt04" href="#" title="收藏的商品" target="_self">
+				<span class="foIcon">
+					<i class="iconfont">&#xe622;</i>
+					<font>0</font>
+				</span>
+				<span class="foTit">收藏的商品</span>
+				<span class="foHover">查看收藏的商品<i class="iconfont">&#xe626;</i></span>
+			</a>
+		</div>
+		<!--- 最近的订单 --->
+		<div class="recentOrder">
+			<h2>近期订单</h2>
+			<table class="roList" border="0" cellpadding="0" cellspacing="0">
+				<tr class="tit">
+					<td>订单编号</td>
+					<td>下单日期</td>
+					<td>收货人</td>
+					<td>付款方式</td>
+					<td>总金额</td>
+					<td>订单状态</td>
+					<td>操作</td>
+				</tr>
+				<tr class="txt">
+					<td>123456789123456789</td>
+					<td>2015-09-01</td>
+					<td>收货人姓名</td>
+					<td>支付宝</td>
+					<td>&yen; 788888.88</td>
+					<td>订单取消</td>
+					<td>
+						<a href="#" title="查看订单" target="_self">查看订单</a>
+					</td>
+				</tr>
+				<tr class="txt">
+					<td>123456789123456789</td>
+					<td>2015-09-01</td>
+					<td>收货人姓名</td>
+					<td>支付宝</td>
+					<td>&yen; 788888.88</td>
+					<td>订单取消</td>
+					<td>
+						<a href="#" title="查看订单" target="_self">查看订单</a>
+					</td>
+				</tr>
+				<tr class="txt">
+					<td>123456789123456789</td>
+					<td>2015-09-01</td>
+					<td>收货人姓名</td>
+					<td>支付宝</td>
+					<td>&yen; 788888.88</td>
+					<td>订单取消</td>
+					<td>
+						<a href="#" title="查看订单" target="_self">查看订单</a>
+					</td>
+				</tr>
+				<tr class="txt">
+					<td>123456789123456789</td>
+					<td>2015-09-01</td>
+					<td>收货人姓名</td>
+					<td>支付宝</td>
+					<td>&yen; 788888.88</td>
+					<td>订单取消</td>
+					<td>
+						<a href="#" title="查看订单" target="_self">查看订单</a>
+					</td>
+				</tr>
+				<tr class="txt">
+					<td>123456789123456789</td>
+					<td>2015-09-01</td>
+					<td>收货人姓名</td>
+					<td>支付宝</td>
+					<td>&yen; 788888.88</td>
+					<td>订单取消</td>
+					<td>
+						<a href="#" title="查看订单" target="_self">查看订单</a>
+					</td>
+				</tr>
+			</table>
+			<!--- 暂无订单 --->
+			<!--<div class="noOrder">
+				<p><i class="iconfont">&#xe600;</i>您暂无任何订单~</p>
+				<span>去<a href="#" title="挖机无忧" target="_blank">挖机无忧逛逛</a>~</span>
+			</div>-->
+		</div>
+		<!--- 最近发布的心得 --->
+		<div class="recentFeeling">
+			<h2>最近发布的心得</h2>
+			<!--- 没有最近的心得 --->
+			<!--<div class="noFeeling">
+				<p><i class="iconfont">&#xe600;</i>您暂无任何心得~</p>
+				<span><a href="#" title="马上去发布" target="_blank">马上去发布</a>~</span>
+			</div>-->
+			<!--- 最近发布的心得列表 --->
+			<ul class="rfList">
+				<li>
+					<a href="#" title="国庆黄金周各省旅游收入山东居首" target="_blank">[推荐]国庆黄金周各省旅游收入山东居首 六省超两百亿</a>
+					<p>人民网北京10月8日消息，记者对2015年“十一”黄金周全国各省区市旅游收入情况进行了统计，在已经公布数字的15个省区市中，山东省以392.1亿元列旅游总收入排行榜第一名，四川省成为接待游客总数最多的省份，达5349.76万人次。根据排行榜中的数据显示，6省旅游总收入超过200亿元，分别为山东省、四川省、河南省、山西省、陕西省和湖南省。</p>
+					<span>2015-09-01</span>
+				</li>
+				<li>
+					<a href="#" title="国庆黄金周各省旅游收入山东居首" target="_blank">[推荐]国庆黄金周各省旅游收入山东居首 六省超两百亿</a>
+					<p>人民网北京10月8日消息，记者对2015年“十一”黄金周全国各省区市旅游收入情况进行了统计，在已经公布数字的15个省区市中，山东省以392.1亿元列旅游总收入排行榜第一名，四川省成为接待游客总数最多的省份，达5349.76万人次。根据排行榜中的数据显示，6省旅游总收入超过200亿元，分别为山东省、四川省、河南省、山西省、陕西省和湖南省。</p>
+					<span>2015-09-01</span>
+				</li>
+				<li>
+					<a href="#" title="国庆黄金周各省旅游收入山东居首" target="_blank">[推荐]国庆黄金周各省旅游收入山东居首 六省超两百亿</a>
+					<p>人民网北京10月8日消息，记者对2015年“十一”黄金周全国各省区市旅游收入情况进行了统计，在已经公布数字的15个省区市中，山东省以392.1亿元列旅游总收入排行榜第一名，四川省成为接待游客总数最多的省份，达5349.76万人次。根据排行榜中的数据显示，6省旅游总收入超过200亿元，分别为山东省、四川省、河南省、山西省、陕西省和湖南省。</p>
+					<span>2015-09-01</span>
+				</li>
+			</ul>
+		</div>
+		<!--- 快捷菜单 --->
+		<div class="fastMenu">
+			<h2>快捷菜单</h2>
+			<a href="#" title="我的订单" target="_self">
+				<i class="iconfont">&#xe616;</i>
+				<b>我的订单</b>
+			</a>
+			<a href="#" title="车辆管理" target="_self">
+				<i class="iconfont">&#xe61e;</i>
+				<b>车辆管理</b>
+			</a>
+			<a href="#" title="发布心得" target="_self">
+				<i class="iconfont">&#xe624;</i>
+				<b>发布心得</b>
+			</a>
+			<a href="#" title="我的积分" target="_self">
+				<i class="iconfont">&#xe61d;</i>
+				<b>我的积分</b>
+			</a>
+			<a href="#" title="修改资料" target="_self">
+				<i class="iconfont">&#xe61f;</i>
+				<b>修改资料</b>
+			</a>
+			<a href="#" title="修改头像" target="_self">
+				<i class="iconfont">&#xe621;</i>
+				<b>修改头像</b>
+			</a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	//问好状态
+	$(function(){
+		var now = new Date()
+		var hour = now.getHours() 
+		if(hour < 6){
+			$(".ucGreet").text("凌晨好！")
+		}
+		else if(hour < 9){
+			$(".ucGreet").text("早上好！")
+		}
+		else if(hour < 12){
+			$(".ucGreet").text("上午好！")
+		}
+		else if(hour < 18){
+			$(".ucGreet").text("下午好！")
+		}
+		else if(hour < 22){
+			$(".ucGreet").text("晚上好！")
+		}	
+	})
+	//隔行变色
+	$(".roList tr:even").css({"background-color":"#f9f9f9"})
+})
+</script>
+</body>
+</html>

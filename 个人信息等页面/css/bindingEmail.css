@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*-- 绑定邮箱 ---*/
+.emailWelcome{height:auto;overflow:hidden;}
+.emailWelcome h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.emailWelcome p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.emailWelcome p a{color:#f60;margin:0px 5px;}
+/*-- 绑定手机 ---*/
+.emailInfo{height:auto;overflow:hidden;padding-top:30px;}
+.emailInfo li{margin-top:20px;height:auto;overflow:hidden;}
+.emailInfo li i{width:170px;font:14px/37px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;text-align:right;padding-right:10px;}
+.emailInfo li input[type="text"]{width:225px;padding:0px 0px 0px 8px;box-sizing:content-box;height:35px;font-size:14px;border:#dcdcdc solid 1px;border-radius:4px;}
+.emailInfo li input.confirmCode{width:120px;}
+.cofirmImg{width:90px;height:37px;margin-left:13px;cursor:pointer;}
+.emailInfo li span{padding-left:10px;color:#f60;}
+.updateEmail{padding:38px 0px 60px 180px}
+.updateEmail input{width:130px;height:38px;background-color:#f60;color:#fff;font-size:14px;border-radius:4px;border:none;cursor:pointer;}
+.emailInfo li input.sendCode:disabled{background-color:#999;color:#fff}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+.binding{width:938px;height:416px;margin:65px auto 0px auto;overflow:hidden;}
+.bdTabTxt{width:936px;border:#dedede solid 1px;border-radius:10px;background-color:#fff;position:relative;height:289px;margin-top:0px;padding:90px 0px 0px 0px;}
+.bdTabTxt.tab1 li{margin-bottom:36px;height:auto;overflow:hidden;padding:0px 0px 0px 300px;}
+.bdSr01,.bdSr02{width:296px;height:38px;float:left;padding:0px 0px 0px 52px;border:1px solid #ddd;border-radius:5px}
+.bdSr01{background:url(http://u.yangdou.com/images/denglu/1.png) no-repeat 18px center scroll;}
+.bdSr02{background:url(http://u.yangdou.com/images/denglu/2.png) no-repeat 18px center scroll;}
+.bdTabTit{height:35px;color:#666;font:16px/16px "微软雅黑";padding:0px 0px 0px 10px;}
+.bdTabTit li{float: left;}
+.bdTabTit li a{padding:0px 0px 20px 0px;float:left;margin-right:45px;cursor:pointer;display: block;color: #666666;}
+.bdTabTit li.on{color:#EA3E3E;font-weight:bold;background:url(images/jtBg01.png) no-repeat center bottom scroll;position:relative;z-index:99;}
+.bdTabTit li.on a{color: #EA3E3E;}
+.bdSubBtn{width:350px;height:45px;background-color:#ea3e3e;color:#fff;font:16px/45px "微软雅黑";text-align:center;display:block;border-radius:5px;}
+.bdSubBtn:hover{color:#fff;text-decoration:none;background-color:#fe5786;}
+
+#regTs font{color:#EA3E3E;margin-left:3px;}
+.tab1Error{padding-left:22px;color:#EA3E3E;position:absolute;left:303px;background:url(http://u.yangdou.com/images/eorTs.png) no-repeat 0px -16px scroll;  font: 12px/16px '微软雅黑';}
+.tab1Error{top:247px;}
+
+.bdTabTxt li.ts{margin:0px 0px 20px 0px;}
+.bdTabTxt li.ts font{font:bold 12px/12px "微软雅黑";color:#EA3E3E;margin:0px 3px;}

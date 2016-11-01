@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+	<meta charset="utf-8">
+	<title>购物车</title>
+	<meta name="Keywords" content="关键词">
+	<meta name="Description" content="我是网页的描述sss">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="css/shopCart.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/placeholder.js"></script>
+	<script type="text/javascript" src="js/artDialog.js"></script>
+</head>
+<body style="background-color:#f2f2f2;">
+<!---- 购物车头部 ---->
+<div class="cartTop">
+	<h2>确认订单信息</h2>
+	<div class="cartSteps">
+		<p><i style="width:279px;"></i></p>
+		<ul>
+			<li class="step01 on">我的购物车</li>
+			<li class="step02 on">确认订单信息</li>
+			<li>成功提交订单</li>
+		</ul>
+	</div>
+</div>
+<!---- 安装与配送方式 ---->
+<div class="install">
+	<h3>安装与配送方式</h3>
+	<div class="installWay">
+		<b>安装方式：</b>
+		<span class="selected">挖掘机门店安装</span>
+		<span>送货到家</span>
+		<span>上门服务</span>
+	</div>
+	<!---- 安装门店 ---->
+	<div class="installWay">
+		<b>安装门店：</b>
+		<a class="choiceShop" href="javascript:void(0)" title="安装门店" target="_blank">选择安装门店 &gt;</a>
+	</div>
+<ul class="serverDoor">
+	<li>
+		<b>预约地址：</b>
+		<input class="serverAddress" type="text" value="" />
+	</li>
+	<li>
+		<b>预约电话：</b>
+		<input type="text" value="" />
+	</li>
+	<li>
+		<b>预约姓名：</b>
+		<input type="text" value="" />
+	</li>
+	<li>
+		<b>预约时间：</b>
+		<input type="text" value="" />
+	</li>
+</ul>
+</div>
+
+<style type="text/css">
+
+	.serverDoor{height: auto;overflow: hidden;}
+	.serverDoor li{margin-left:26px;height: auto;overflow: hidden;float: left;}
+	.serverDoor li b{font: 14px/30px "\5FAE\8F6F\96C5\9ED1";color: #666;width:70px;height:30px;overflow: hidden;display:block;text-align:right;float: left;}
+	.serverDoor li input{width:120px;height:30px;margin-left:5px;float: left;}
+	.serverDoor li input.serverAddress{width:240px;}
+.choiceShop{background-color:#f90;display:inline-block;min-width:110px;color:#fff;border:#f90 solid 2px;padding:0px 15px;height:32px;text-align:center;font:14px/32px "\5FAE\8F6F\96C5\9ED1";cursor:pointer;}
+.choiceShop:hover{text-decoration:none;background-color:#f60;border:#f60 solid 2px;}
+/*---- 收货地址列表 ----*/
+</style>
+
+<!---- 收货人信息和收货地址 ---->
+<div class="addressList">
+	<h3>收货人信息</h3>
+	<a class="addAddress" href="#" title="新增收获地址">新增收获地址</a>
+	<ul>
+		<li class="selected">
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a class="editAddBtn" href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li>
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li>
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li>
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+	</ul>
+	<a class="showAddList" href="javascript:void(0)">展开地址</a>
+</div>
+<!---- 支付方式选择 ---->
+<div class="payWay">
+	<h3>支付方式</h3>
+	<input style="margin-left:25px;" type="radio" name="payWay" /><i class="iconfont">&#xe613;</i>到店支付<font>（支持现金刷卡）</font>
+	<input style="margin-left:50px;"  type="radio" name="payWay" /><i class="iconfont alipay">&#xe614;</i>
+</div>
+<!---- 商品清单 ---->
+<div class="orderList">
+	<h3>商品清单</h3>
+	<a class="backCart" href="#" title="返回修改购物车" target="_self">返回修改购物车</a>
+	<ul>
+		<li class="tit">
+			<span class="orderPro">商品信息</span>
+			<span class="orderPrice">单价</span>
+			<span class="orderCount">数量</span>
+			<span class="orderDis">优惠</span>
+			<span class="orderTotal">小计</span>
+		</li>
+		<li class="txt">
+			<span class="orderPro">
+				<a href="#" title="商品信息" target="_blank">
+					<img src="" width="78" height="78" alt="商品名称" title="商品名称" />
+				</a>
+				<a href="#" class="orderName" title="商品信息" target="_blank">活力男孩 汽车钥匙扣 男士钥匙链【不锈钢钥匙圈 真皮挂件用品】 Y-A04</a>
+				<i class="orderNum">商品编号：123456789987456123-wwwww</i>
+			</span>
+			<span class="orderPrice">&yen; 38.00</span>
+			<span class="orderCount">5</span>
+			<span class="orderDis">已省4.00元（限时抢购）</span>
+			<span class="orderTotal">&yen; 38.00</span>
+			<p class="orderGift">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+		</li>
+		<li class="txt">
+			<span class="orderPro">
+				<a href="#" title="商品信息" target="_blank">
+					<img src="" width="78" height="78" alt="商品名称" title="商品名称" />
+				</a>
+				<a href="#" class="orderName" title="商品信息" target="_blank">活力男孩 汽车钥匙扣 男士钥匙链【不锈钢钥匙圈 真皮挂件用品】 Y-A04</a>
+				<i class="orderNum">商品编号：123456789987456123-wwwww</i>
+			</span>
+			<span class="orderPrice">&yen; 38.00</span>
+			<span class="orderCount">5</span>
+			<span class="orderDis">已省4.00元（限时抢购）</span>
+			<span class="orderTotal">&yen; 38.00</span>
+			<p class="orderGift">【赠品】赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品赠品</p>
+		</li>
+	</ul>
+</div>
+<!---- 商品清单 ---->
+<div class="installPay">
+	<h3>安装费用说明</h3>
+	<ul>
+		<li class="tit">
+			<span class="serPro">商品信息</span>
+			<span class="serStandard">服务标准</span>
+			<span class="serPrice">收费标准</span>
+			<span class="serRemark">备注</span>
+		</li>
+		<li class="txt">
+			<span class="serPro">更换雨刷</span>
+			<span class="serstandard">每副；含前档玻璃清洁、雨刮系统检查及雨刮臂调整；</span>
+			<span class="serPrice">&yen; 0.00</span>
+			<span class="serRemark">特殊车型需抽真空加制冷剂，需补门店40元/车的差价；</span>
+		</li>
+		<li class="txt">
+			<span class="serPro">更换雨刷</span>
+			<span class="serstandard">每副；含前档玻璃清洁、雨刮系统检查及雨刮臂调整；</span>
+			<span class="serPrice">&yen; 0.00</span>
+			<span class="serRemark">特殊车型需抽真空加制冷剂，需补门店40元/车的差价；</span>
+		</li>
+		<li class="txt">
+			<span class="serPro">更换雨刷</span>
+			<span class="serstandard">每副；含前档玻璃清洁、雨刮系统检查及雨刮臂调整；</span>
+			<span class="serPrice">&yen; 0.00</span>
+			<span class="serRemark">特殊车型需抽真空加制冷剂，需补门店40元/车的差价；</span>
+		</li>
+	</ul>
+</div>
+<!---- 发票信息 ---->
+<div class="invoiceInfo">
+	<h3>发票信息</h3>
+	<input type="checkbox" />发票信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发票抬头：<input type="text" placeholder="发票信息"/>
+	<p>（温馨提示：您填写的所有内容都将被系统自动打印到发票上，所以请千万别填写和发票抬头无关的信息。）</p>
+</div>
+<!---- 订单价格信息 ---->
+<div class="cartTotal">
+	<p>
+		<input type="checkbox" />使用积分<input type="text"/><i>（您共有80积分）</i>
+		<input type="checkbox" />使用优惠券：<span>&yen; -0.70</span>
+	</p>
+	<p>商品总金额：<span>&yen; 380.00</span></p>
+	<p>运费：<span>&yen; 29.00</span></p>
+	<p>应付总额：<span>&yen; 19.9</span></p>
+	<p>应付总金额：<font>&yen; 186.00</font>
+		<input type="button" value="提交订单" />
+	</p>
+</div>
+<!---- 新增收货人地址弹窗 ---->
+<div class="editAddress" id="editAddress">
+	<h3>新增收货人信息</h3>
+	<a class="closeBtn iconfont" i="close" href="javascript:void(0)" title="关闭">&#xe612;</a>
+	<ul>
+		<li>
+			<i><font>*</font>收货人：</i>
+			<input type="text" placeholder="收货人" />
+			<span>错误提示</span>
+		</li>
+		<li>
+			<i><font>*</font>所在地区：</i>
+			<select>
+				<option>001</option>
+				<option>002</option>
+				<option>003</option>
+				<option>004</option>
+			</select>
+			<select>
+				<option>001</option>
+				<option>002</option>
+				<option>003</option>
+				<option>004</option>
+			</select>
+			<select>
+				<option>001</option>
+				<option>002</option>
+				<option>003</option>
+				<option>004</option>
+			</select>
+			<span>错误提示</span>
+		</li>
+		<li class="addressDets">
+			<i><font>*</font>详细地址：</i>
+			<textarea placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息"></textarea>
+			<span>错误提示</span>
+		</li>
+		<li>
+			<i><font>*</font>手机号码：</i>
+			<input type="text" placeholder="手机号码" />
+			<span>错误提示</span>
+		</li>
+		<li>
+			<i>固定电话：</i>
+			<input type="text" placeholder="固定电话" />
+		</li>
+		<li>
+			<i>邮箱：</i>
+			<input type="text" placeholder="E-mail地址" />
+			<p>用来接收订单提醒邮件，便于您及时了解订单状态</p>
+		</li>
+		<li>
+			<input type="button" data-id="ok" value="保存收货人信息"/>
+			<input class="cancelBtn" data-id="cancel" type="button" value="取消" />
+		</li>
+	</ul>
+</div>
+
+
+<div class="shopList" id="shopList">
+	<a class="iconfont shopClose" i="close" href="javascript:void(0)" title="关闭">&#xe612;</a>
+	<div class="shopSort">
+		<select>
+			<option>河南省</option>
+			<option>湖北省</option>
+		</select>
+		<select>
+			<option>郑州</option>
+			<option>武汉</option>
+		</select>
+		<select>
+			<option>所有类型</option>
+			<option>所有类型</option>
+		</select>
+		<select>
+			<option>综合排序</option>
+			<option>综合排序</option>
+		</select>
+	</div>
+	<ul>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>暂无评分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>5.0分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>暂无评分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>5.0分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>暂无评分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>5.0分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>暂无评分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>5.0分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>暂无评分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+		<li>
+			<a class="shopNames" href="#" title="店铺名称" target="_self">店铺名称店铺名称店铺名称店铺名称</a>
+			<p>技术等级:
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>
+				<i class="iconfont star">&#xe627;</i>3
+				<span><font>5.0分</font>(安装81单)</span>
+			</p>
+			<p>河南省郑州市中原区长椿路冬青街河南省电子商务产业园企汇网</p>
+		</li>
+	</ul>
+	<div class="shopMap">地图</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	//安装选择
+	$(".installWay span").click(function(){
+		$(this).addClass("selected")
+		$(this).siblings().removeClass("selected")
+	})
+	//地址列表默认样式
+	$(".addressList ul li").hover(function(){
+		$(this).children("span").toggleClass("hover")
+	})
+	//设为默认地址
+	$(".setDefault").click(function(){
+		$(this).parents("li").addClass("selected")
+		$(this).parents("li").siblings().removeClass("selected")
+	})
+	//删除收获地址
+	$(".delAdd").click(function(){
+		$(this).parents("li").remove();
+	})
+	//展开收起地址
+	$(".showAddList").click(function(){
+		$(this).toggleClass("up")
+		$(this).siblings("ul").toggleClass("up")
+		var showText=$(".showAddList").text();
+		if(showText=="展开地址"){
+			$(this).html("收起地址")
+		}
+		else{
+			$(this).html("展开地址")
+		}
+	})
+	//编辑地址弹窗
+	$(".editAddBtn").click(function(){
+         dialog({
+             content:document.getElementById("editAddress"),
+			 ok: function () {
+				 this.close();
+				 return false;
+				 },
+			 cancel: function () {
+				 this.close();
+				 return false;
+				 },
+			 fixed:true,
+			 width:690,
+			 height:550,
+         }).showModal();
+		 //让隐藏的样式显示
+		 $("#editAddress").css("display","block");
+	});
+	//弹出选择门店弹窗
+	$(".choiceShop").click(function(){
+         dialog({
+             content:document.getElementById("shopList"),
+			 ok: function () {
+				 this.close();
+				 return false;
+				 },
+			 cancel: function () {
+				 this.close();
+				 return false;
+				 },
+			 fixed:true,
+			 width:1000,
+			 height:600,
+         }).showModal();
+		 //让隐藏的样式显示
+		 $("#shopList").css("display","block");
+	});
+	
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+/*--- 商城首页样式 裴富成  2015年9月23日 ---*/
+a:hover{text-decoration:none}
+/* banner 轮播大图 */
+.banner{width:1200px;margin:15px auto 0 auto;height:auto;overflow:hidden;position:relative}
+.slideBox{width:1200px;height:440px;overflow:hidden;position:relative;border:1px solid #ddd}
+.slideBox .hd{height:14px;overflow:hidden;position:absolute;right:500px;bottom:5px;z-index:1}
+.slideBox .hd ul{overflow:hidden;zoom:1;float:left}
+.slideBox .hd ul li{float:left;margin-right:5px;width:14px;height:14px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;line-height:13px;text-align:center;background:#fff;cursor:pointer}
+.slideBox .hd ul li.on{background:#f4825b;color:#fff}
+.slideBox .bd{position:relative;height:100%;z-index:0}
+.slideBox .bd li{zoom:1;vertical-align:middle}
+.slideBox .bd img{width:1200px;height:440px;display:block}
+.slideBox .next,.slideBox .prev{position:absolute;left:0;top:50%;margin-top:-25px;display:block;width:32px;height:40px;background:url(../images/slider-arrow.png) -110px 5px no-repeat;filter:alpha(opacity=50);opacity:.5}
+.slideBox .next{left:auto;right:0;background-position:8px 5px}
+.slideBox .next:hover,.slideBox .prev:hover{filter:alpha(opacity=100);opacity:1}
+.slideBox .prevStop{display:none}
+.slideBox .nextStop{display:none}
+/* 子菜单导航 */
+.subnavLeft{width:230px;float:left;background-color:#043c62;position:absolute;left:0;top:0;z-index:100}
+.subnavLeft li{height:auto;overflow:hidden}
+.subnavLeft li.cur{background-color:#efad08;color:#FFF}
+.subnavLeft li>a{height:55px;padding:0 15px;font:14px/55px "\5FAE\8F6F\96C5\9ED1";color:#FFF;display:block;overflow:hidden}
+.subnavLeft li a:hover{text-decoration:none}
+.iconfont{font-size:22px;float:right}
+.subnavLeft .show{width:620px;height:396px;border:1px solid #e4e4e4;border-width:1px 1px 2px 0;background:#fff;position:absolute;top:0;left:230px;z-index:9999;font-family:"宋体";padding:22px 22px 50px;display:none}
+.subnavLeft li .show h3{border-bottom: 1px dashed #dcdcdc;color: #000;font: 14px/40px "\5FAE\8F6F\96C5\9ED1"; margin-bottom: 10px;}
+.showContent{height: auto;overflow: hidden;}
+.showContent>a{width:192px;height:24px;font:12px/24px '宋体';color:#666;padding-right:14px;display:block;float:left;overflow:hidden}
+.showContent>a:hover{color:#f60}
+/* 小图轮播推荐   */
+.bannerScroll{position:relative;height:185px;padding:0 0 10px 0;background:#fff;overflow:hidden;width:1200px;margin:30px auto 0}
+.bannerScroll ul{overflow:hidden;zoom:1}
+.bannerScroll ul li{float:left;margin-right:20px;width:285px;overflow:hidden}
+.bannerScroll ul li a{display:block}
+.bannerScroll ul li img{width:285px;height:185px}
+.bannerScroll .next,.bannerScroll .prev{position:absolute;left:10px;top:90px;display:block;width:18px;height:28px;overflow:hidden;background:url(../images/icons.png) -40px 0 no-repeat;cursor:pointer}
+.bannerScroll .next{left:auto;right:10px;background-position:-120px 0}
+.bannerScroll .prevStop{background-position:0 0}
+.bannerScroll .nextStop{background-position:-80px 0}
+/* 挖机无忧特色购 */
+.Features{width:1200px;height:auto;overflow:hidden;margin:15px auto 0}
+.Features h2{height:36px;font:20px/36px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.Main{width:1200px;height:auto;position:relative}
+.mainLeft{display:block;height:420px;width:200px;position:relative;float:left}
+.mainRight{display:block;height:420px;width:200px;position:absolute;right:0;top:0}
+.Describe{text-align:center;width:200px;height:30px;font:16px/24px "\5FAE\8F6F\96C5\9ED1";color:#FFF;position:absolute;left:0;bottom:85px;border-bottom:1px dashed #FFF;overflow:hidden}
+.Discount{width:200px;height:22px;text-align:center;font:14px/22px "\5B8B\4F53";color:#FFF;position:absolute;left:0;bottom:60px;overflow:hidden}
+.Start{width:86px;height:25px;line-height:25px;text-align:center;border-radius:11px;color:#b8c5e8;position:absolute;left:48px;bottom:22px;border:none}
+.content{height:auto;overflow:hidden;width:804px;border-bottom:1px solid #E4E4E4}
+.content li{float:left}
+.scrollbanner{width:402px;height:209px;overflow:hidden;display:block;position:relative}
+.contentPro{display:block;width:200px;height:209px;border:1px solid #E4E4E4;border-left:none;border-bottom:none;position:relative;overflow:hidden;text-align:center;float:left}
+.content li>a>img{margin:15px 0}
+.Promote{text-align:center;width:200px;height:22px;font:18px/22px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:5px 0;position:absolute;left:0;bottom:30px;overflow:hidden}
+.newShop{text-align:center;width:200px;height:22px;font:14px/22px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:5px 0;position:absolute;left:0;bottom:3px;overflow:hidden}
+.Promote b{color:#ff6766}
+.scrollbanner .bd{z-index:0}
+.scrollbanner .bd ul{width:100%!important;height:209px}
+.scrollbanner .bd li{width:100%!important;height:209px}
+.scrollbanner .bd li .siteWidth{width:1000px;position:relative;margin:0 auto;height:299px}
+.scrollbanner .bd li>a{height:299px;display:block}
+.scrollbanner .bd .txt{position:absolute;width:415px;top:100px;left:22px;font:400 18px/30px "Microsoft YaHei"}
+.scrollbanner .bd .btn{display:block;zoom:1;margin-top:8px;width:72px;padding-right:10px;height:31px;line-height:31px;text-align:center;color:#fff;font-size:12px;background:url(images/banner-btn.png) 0 0 no-repeat}
+.scrollbanner .hd{position:absolute;z-index:1;bottom:0;left:165px;height:20px;line-height:20px;text-align:center}
+.scrollbanner .hd ul li{cursor:pointer;display:inline-block;zoom:1;width:11px;height:11px;margin:4px;background:url(../images/dot-black.png) 0 0;overflow:hidden;line-height:9999px;filter:alpha(opacity=40);opacity:.4}
+.scrollbanner .hd ul .on{filter:alpha(opacity=100);opacity:1}
+/* 内容floor */
+.floor{width:1200px;height:auto;overflow:hidden;margin:30px auto 0}
+.floorRight{width:1032px;background:#ececec;height:36px;float:left}
+.floorRight li{float:left;width:123px;height:36px;margin-right:1px;line-height:36px;text-align:center;font-size:14px;cursor:pointer}
+.floorBox{width:1200px;height:auto;float:left}
+.floorMain_left{width:190px;height:400px;position:relative;float:left}
+.floorLeft{display:block;width:190px;height:400px;float:left}
+.floorText{width:180px;position:absolute;left:6px;bottom:130px}
+.floorText li{float:left}
+.floorText li>a{padding:5px 14px;text-align:center;color:#FFF;display:block;margin:0 2px 2px 0}
+.floorBrand{width:180px;position:absolute;left:6px;bottom:-30px}
+.floorBrand>a{float:left;display:block;margin:1px}
+.floorContent{width:1000px;height:auto;overflow:hidden;float:right;border-bottom:1px solid #E4E4E4;border-right:1px solid #E4E4E4;}
+.floorContent ul li{float:left;width:199px;height:215px;border:1px solid #E4E4E4;border-bottom:none;border-right:none}
+.floorContent ul li.floorScoll{width:400px;border-left:none}
+.floorContent-one{ display: block;}
+.floorContent-two{ display: none;}
+.proImg{text-align:center;display:block;padding:15px 0 25px}
+.proTitle{height:30px;line-height:30px}
+.proTitle a{text-align:left;font:12px/30px "\5FAE\8F6F\96C5\9ED1";height:30px;overflow:hidden;padding-left:15px;color:#999;display:block}
+.Price{color:#ff7701;font:700 12px/22px "\5FAE\8F6F\96C5\9ED1";height:22px;overflow:hidden;padding-left:15px}
+/* floor内容区小图轮播 */
+.focusBox{float:left;position:relative;width:397px;height:215px;overflow:hidden;font-family:Arial;background:#fff}
+.focusBox .pic img{width:397px;height:215px;display:block}
+.focusBox .txt{position:absolute;bottom:0;z-index:2;height:36px;width:100%;overflow:hidden}
+.focusBox .txt li{height:36px;line-height:36px;position:absolute;bottom:-36px}
+.focusBox .txt li a{display:block;color:#fff;padding:0 0 0 10px;font-size:12px;font-weight:700;text-decoration:none}
+.focusBox .num{position:absolute;z-index:3;bottom:5px;right:90px}
+.focusBox .num li{float:left;position:relative;width:70px;height:20px;line-height:20px;overflow:hidden;text-align:center;margin-right:1px;cursor:pointer}
+.focusBox .num li a,.focusBox .num li span{position:absolute;z-index:2;display:block;color:#fff;width:100%;height:100%;top:0;left:0;text-decoration:none}
+.focusBox .num li span{z-index:1;background:#000;filter:alpha(opacity=50);opacity:.5}
+.focusBox .num a:hover,.focusBox .num li.on a{background:#f60}
+/* 1f导航 */
+.floorOneTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #ff7701}
+.floorOneTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#ff7701}
+#floorOne li.on{background-color:#efad08;cursor:pointer;color:#FFF}
+.onefloorText li>a{background-color:#fc973b;}
+/* 2f导航 */
+.floorTwoTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #749ca8}
+.floorTwoTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#749ca8}
+#floorTwo li.on{background-color:#749ca8;cursor:pointer;color:#FFF}
+.twofloorText li>a{background-color:#749CA8;}
+/* 3f导航 */
+.floorThrTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #d4595e}
+.floorThrTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:168px;overflow:hidden;color:#d4595e}
+#floorThr li.on{background-color:#d4595e;cursor:pointer;color:#FFF}
+.thrfloorText li>a{background-color: #d4595e;}
+/* 4f导航 */
+.floorFourTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #3cb38d}
+.floorFourTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#3cb38d}
+#floorFour li.on{background-color:#3cb38d;cursor:pointer;color:#FFF}
+.foufloorText li>a{background-color: #3CB38D;}
+/* 5f导航 */
+.floorFiveTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #268bb9}
+.floorFiveTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#268bb9}
+#floorFive li.on{background-color:#268bb9;cursor:pointer;color:#FFF}
+.fivfloorText li>a{background-color: #268BB9;}
+/* 6f导航 */
+.floorSixTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #d4595e}
+.floorSixTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#d4595e}
+#floorSix li.on{background-color:#d4595e;cursor:pointer;color:#FFF}
+.sixfloorText li>a{background-color: #D4595E;}
+/* 7f导航 */
+.floorSevenTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #73939e}
+.floorSevenTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#73939e}
+#floorSen li.on{background-color:#73939e;cursor:pointer;color:#FFF}
+.sevfloorText li>a{background-color: #73939E;}
+/* 8f导航 */
+.floorEightTitle{width:1200px;height:36px;float:left;margin-bottom:20px;overflow:hidden;border-bottom:2px solid #b3671c}
+.floorEightTitle h2{float:left;height:36px;font:700 20px/36px "\5FAE\8F6F\96C5\9ED1";width:190px;overflow:hidden;color:#b3671c}
+#floorEight li.on{background-color:#b3671c;cursor:pointer;color:#FFF}
+.eigfloorText li>a{background-color: #B3671C;}
+/* 左侧浮动导航 */
+#floatnav{display:none;position:fixed;right:50%;margin-right:630px;top:30%;width:60px;list-style-type:none;font:12px "\5FAE\8F6F\96C5\9ED1"}
+#floatnav a{display:block;width:54px;height:30px;padding:2px 3px 3px 3px;line-height:100px;color:#888;text-decoration:none;overflow:hidden;background:url(../images/bgNav.png) no-repeat}
+#floatnav a:hover{line-height:29px;color:#ff6602;background-image:none;text-align:center;border-bottom:1px dashed #E4E4E4;height:29px}
+#floatnav .f2{background-position:0 -55px}
+#floatnav .f3{background-position:0 -110px}
+#floatnav .f4{background-position:0 -165px}
+#floatnav .f5{background-position:0 -220px}
+#floatnav .f6{background-position:0 -275px}
+#floatnav .f7{background-position:0 -330px}
+#floatnav .f8{background-position:0 -385px}
+#floatnav .f13{background-position:0 -440px}
+#floatnav .current a{line-height:28px;color:#ff6602;background-image:none;text-align:center;border-bottom:1px dashed #E4E4E4}

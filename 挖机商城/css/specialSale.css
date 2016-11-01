@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*--- 个人中心 刘朋玉 2015年9月16日 ---*/
+.seckill{width:1200px;height:auto;overflow:hidden;margin:30px auto 0px auto;position:relative;}
+.seckill h2{font:26px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:#333 solid 3px;padding-bottom:8px;}
+.seckill h2 i{font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.seckill h2 i font{color:#f00;}
+.seckillTime{position:absolute;top:0px;right:30px;;}
+.seckill ul{width:2000px;padding-top:10px;}
+.seckill ul li{width:265px;height:285px;float:left;text-align:center;background-color:#fff;padding:12px 10px 10px 10px;margin-right:20px;}
+.seckill ul li span{display:block;text-align:left;margin-top:14px;}
+.seckillName{display:block;text-align:left;font:14px/14px "\5FAE\8F6F\96C5\9ED1";height:15px;overflow:hidden;margin-top:12px;color:#666;}
+.seckillPrice font{font:24px/24px "\5FAE\8F6F\96C5\9ED1";margin-right:30px;color:#f00}
+.seckillPrice s{font:14px/24px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.seckillName:hover{color:#f60}
+.seckillStat{color:#999}
+.seckillStat font{float:right;}
+.seckillStat strong{color:#f00}
+.panicBuying{width:1200px;height:auto;overflow:hidden;margin:30px auto 0px auto;position:relative;}
+.panicBuying h2{font:26px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:#333 solid 3px;padding-bottom:8px;}
+.panicBuying h2 i{font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.panicBuying ul{width:2000px;}
+.panicBuying ul li{width:265px;height:285px;float:left;text-align:center;background-color:#fff;padding:12px 10px 10px 10px;margin-right:20px;}
+.panicBuying ul li span{display:block;text-align:left;margin-top:14px;}
+.tempWrap{padding-top:15px;}
+.pageBtn span{width:30px;height:40px;background:url(../images/nextBtn.png) no-repeat 0px 0px scroll;position:absolute;top:130px;cursor:pointer;display:inline-block;}
+.pageBtn span.prev{left:0px;}
+.pageBtn span.next{background-position:-35px 0px;right:0px;}
+.scrollBox .piclist{ overflow:hidden; zoom:1;}
+.scrollBox .ohbox{overflow:hidden; position:relative;width:818px;left:60px}
+.scrollBox {position:relative;overflow:hidden;zoom:1;}
+/*---- 品牌团购 ----*/
+.brandGrounp{width:1200px;height:auto;overflow:hidden;margin:30px auto 0px auto;position:relative;}
+.brandGrounp h2{font:26px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:#333 solid 3px;padding-bottom:8px;margin-bottom:20px;}
+.brandGrounp h2 i{font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.brandClass,.bcCommand{background-color:#fff;overflow:hidden;padding:10px 0px 10px 0px;border:#dcdcdc solid 1px;position:relative;}
+.brandClass{height:80px;border-bottom:none;}
+.bcCommand{height:40px;}
+.brandClass i,.bcCommand i{width:130px;float:left;text-align:center;font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.brandClass p,.bcCommand p{width:1000px;float:left;font:14px/40px "\5FAE\8F6F\96C5\9ED1";word-wrap:break-word}
+.brandClass p a,.bcCommand p a{margin-right:60px;color:#999;display:inline-block;}
+.brandClass p a:hover,.bcCommand p a:hover{color:#f60;text-decoration:none;}
+.brandClass.up,.bcCommand.up{height:auto;}
+.bcMore{position:absolute;top:20px;right:30px;cursor:pointer;color:#666;background:url(../images/showMore.png) no-repeat right -29px scroll;padding-right:25px;}
+.bcMore.up{background-position:right 5px;}
+/*---- 品牌团购列表 ----*/
+.brandPro{width:1200px;height:auto;overflow:hidden;margin:30px auto 0px auto;position:relative;}
+.brandPro h2{font:26px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:#333 solid 3px;padding-bottom:8px;}
+.brandPro h2 i{font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.brandPro ul{width:2000px;}
+.brandPro ul li{width:265px;height:285px;float:left;text-align:center;background-color:#fff;padding:12px 10px 10px 10px;margin:0px 20px 20px 0px;}
+.brandPro ul li span{display:block;text-align:left;margin-top:14px;}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*---- 帮助中心 ----*/
+.helpCenter{width:1200px;height:auto;overflow:hidden;margin:0px auto;position:relative;}
+/*---- 帮助中心左侧 ----*/
+.hpLeft{width:238px;height:auto;border:#e9e9e9 solid 1px;background-color:#fff;float:left;}
+.hpLeft h2{margin:0px 20px;border-bottom:#e9e9e9 solid 1px;font:16px/52px "\5FAE\8F6F\96C5\9ED1";color:#333;height:52px;}
+.hpLeft ul{height:auto;overflow:hidden;padding:10px 0px;}
+.hpLeft ul li{height:40px;font:12px/40px "\5FAE\8F6F\96C5\9ED1";padding-left:30px;}
+.hpLeft ul li.on{border-left:#f60 solid 2px;background-color:#f3f3f3;}
+.hpLeft ul li a{color:#666}
+.hpLeft ul li.on a{color:#f60;}
+.hpLeft ul li a:hover{color:#f60;text-decoration:none;}
+/*---- 帮助中心右侧 ----*/
+.hpRight{width:885px;background-color:#fff;height:auto;float:right;border:#e9e9e9 solid 1px;padding:0px 30px 30px 30px;}

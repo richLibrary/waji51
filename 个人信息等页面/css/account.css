@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*---- 个人信息 ----*/
+.accountWelcom{height:auto;overflow:hidden;}
+.accountWelcom h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.accountWelcom p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.accountWelcom p a{color:#f60;margin:0px 5px;}
+/*---- 个人信息 ----*/
+.personInfo{height:auto;overflow:hidden;padding-top:30px;}
+.personInfo li{margin-top:20px;height:auto;overflow:hidden;}
+.personInfo li i{width:170px;font:14px/37px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;text-align:right;padding-right:10px;}
+.personInfo li input[type="text"]{width:225px;padding:0px 0px 0px 8px;height:35px;font-size:14px;border:#dcdcdc solid 1px;border-radius:4px;}
+.personInfo li.sex{margin-top:12px;}
+.personInfo li.sex,.personInfo li.sex i{font:14px/20px "\5FAE\8F6F\96C5\9ED1";}
+.personInfo li.sex input{width:15px;height:15px;margin-right:4px;}
+.personInfo li input:disabled{background-color:#f5f5f5;color:#999;}
+.personInfo li span{padding-left:10px;color:#999;}
+.personInfo li span.warn{color:#f60;}
+.email{margin-left:10px;color:#4695d8;}
+.personInfo li input.telNumber:disabled{border:#fff solid 1px;background-color:#fff;padding-left:0px;width:233px;font-size:18px;font-weight:bold;color:#666}
+.fixTel{margin-left:10px;color:#4695d8;}
+.updateBtn{padding:38px 0px 60px 180px}
+.updateBtn input{width:163px;height:38px;background-color:#f60;color:#fff;font-size:14px;border-radius:4px;border:none;cursor:pointer;}

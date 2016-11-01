@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*---- 消息管理首页 ----*/
+.msgWelcom{height:auto;overflow:hidden;}
+.msgWelcom h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.msgWelcom p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.msgWelcom p a{color:#f60;margin:0px 5px;}
+/*---- 我的消息 ----*/
+.msgTit{height:50px;background-color:#f9f9f9;border-bottom:#e8e8e8 solid 1px;margin-top:30px;}
+.msgTit span{width:120px;text-align:center;font:14px/47px "\5FAE\8F6F\96C5\9ED1";height:47px;cursor:pointer;color:#333;float:left;border-top:#f9f9f9 solid 3px;border-bottom:#e8e8e8 solid 1px;border-right:#f9f9f9 solid 3px;border-left:#f9f9f9 solid 1px;}
+.msgTit span.on{border-top:#f60 solid 3px;border-bottom:#fff solid 1px;background-color:#fff;border-right:#e8e8e8 solid 1px;border-left:#e8e8e8 solid 1px;color:#f60;}
+.msgTxt ul{height:auto;overflow:hidden;padding:10px 0px;display:none;}
+.msgTxt ul.on{display:block;}
+.msgTxt ul li{height:auto;overflow:hidden;border-bottom:#ccc dashed 1px;padding:20px 0px 20px 70px;margin:0px 10px;position:relative;}
+.userPhotoMsg{position:absolute;top:20px;left:0px;}
+.msgTxt ul li b{color:#f60;font:14px/14px "\5FAE\8F6F\96C5\9ED1";padding-bottom:15px;}
+.msgTxt ul li p{color:#999;font:12px/24px "\5FAE\8F6F\96C5\9ED1";}
+.msgTxt ul li p.blackPart{color:#333;font:14px/24px "\5FAE\8F6F\96C5\9ED1";}
+.deleteMsg{position:absolute;top:115px;right:0px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.deleteMsg:hover{color:#f60;text-decoration:none;}
+.userReply {border-top: 1px solid #dcdcdc;color: #666;float: right;font: 12px/20px "微软雅黑";height: auto;margin-top: 15px;position: relative;width: 780px;}
+.userReplyIcon {background: rgba(0, 0, 0, 0) url("../images/bbsReply.png") no-repeat scroll center center;height: 15px;left: 179px;position: absolute;top: -15px;width: 37px;}
+.userReply dl {height: auto;overflow: hidden;padding:10px 0;display: block;}
+.userReply ul li {border-bottom: 1px dashed #dcdcdc;height: auto;overflow: hidden;padding: 10px 0 15px;}
+.userReply dt img {float: left;}
+.userReply dl dd {color: #666;float: right;font: 12px/20px "微软雅黑";margin-bottom: 5px;width: 715px;}
+.userReply dl dd span {float: right;width: 715px;}
+.userReply dl dd a {color: #f60;margin-right: 15px;}

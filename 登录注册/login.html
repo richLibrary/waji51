@@ -1,0 +1,81 @@
+<html>
+<head lang="zh">
+	<meta charset="utf-8">
+	<title>登录页面</title>
+	<meta name="Keywords" content="关键词">
+	<meta name="Description" content="我是网页的描述sss">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/placeholder.js"></script>
+</head>
+<body style="background-color:#f2f2f2;">
+<!---- 登录页面头部 ---->
+<div class="loginTop">
+	<div class="ltpContent">
+		<h1>欢迎登录</h1>
+		<p>您好！欢迎来到挖机无忧!请在下方输入以登录！&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" title="帮助中心" target="_blank">帮助中心</a></p>
+	</div>
+</div>
+<!---- 登录页面 ---->
+<div class="login">
+	<div class="otherLogin">
+		<h2>您还可以用第三方账号登录</h2>
+		<a class="qq" href="#" title="QQ账号登录" target="_blank" rel="nofollow"><i class="iconfont">&#xe601;</i>QQ账号登录</a><br/>
+		<a class="wx" href="#" title="微信账号登录" target="_blank" rel="nofollow"><i class="iconfont">&#xe603;</i>微信账号登录</a>
+		<p>还没账号？&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="马上注册" target="_blank">马上注册</a></p>
+	</div>
+	<ul class="loginMain">
+		<h2>欢迎登录挖机无忧</h2>
+		<li>
+			<i class="iconfont">&#xe602;</i>
+			<input type="text" placeholder="手机/邮箱" />
+			<span>错误提示！！！</span>
+		</li>
+		<li>
+			<i class="iconfont">&#xe607;</i>
+			<input type="password" placeholder="请输入密码" />
+			<span>错误提示！！！</span>
+		</li>
+		<li>
+			<i class="iconfont">&#xe606;</i>
+			<input style="width:100px;" type="text" value="" placeholder="请输入验证码" />
+		</li>
+		<li class="remPsd">
+			<input type="checkbox"/>记住我（公共场所慎用）
+			<a href="#" title="忘记密码" target="_blank">忘记密码？</a>
+		</li>
+		<li>
+			<input type="button" value="立即登录" />
+		</li>
+	</ul>
+</div>
+<!---- 登录页面底部 ---->
+<div class="loginFooter">
+	<a href="#" title="商城首页" target="_blank">商城首页</a>|
+	<a href="#" title="合作招商" target="_blank">合作招商</a>|
+	<a href="#" title="关于我们" target="_blank">关于我们</a>|
+	<a href="#" title="联系我们" target="_blank">联系我们</a>|
+	<a href="#" title="联系我们" target="_blank">联系我们</a>|
+	<a href="#" title="人才招聘" target="_blank">人才招聘</a><br>
+	Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2015&nbsp;&nbsp;河南省跨境电子商务有限公司 版权所有&nbsp;&nbsp;|&nbsp;&nbsp;豫B2-20140075-21号
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	//placeholder兼容
+	$(function(){
+		$('.loginMain li input').placeholder(); 
+	});
+	//判断底部位置
+	$(function(){
+		var docHeight=$(document.body).height();
+		var winHeight=$(window).height();
+		if(docHeight < winHeight){
+			$('.loginFooter').css({"position":"absolute","bottom":"0px"})
+		}
+	})
+})
+</script>
+</body>
+</html>

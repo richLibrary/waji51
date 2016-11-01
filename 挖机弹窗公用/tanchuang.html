@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>提示信息</title>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.js"></script>
+<script src="js/dialog-plus.js"></script>
+
+</head>
+
+<body>
+<style type="text/css">
+.wjDialog{width:360px;height:150px;background-color:#fff;border-radius:5px;display:none;}
+.wjDialog p{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:center;padding-top:30px;}
+.wjDialog p input{width:90px;height:30px;border-radius:4px;margin:0px 10px;border:#f60 solid 1px;background-color:#f60;color:#fff;font-size:14px;font-family:"\5FAE\8F6F\96C5\9ED1";outline:none;cursor:pointer;}
+.wjDialog p input.cancel{border:#ccc solid 1px;background-color:#f5f5f5;color:#666}
+</style>
+<!-- 挖机公共弹窗 -->
+<div class="wjDialog" id="wjDialog">
+	<p>您确定要删除吗？</p>
+	<p><input type="button" data-id="ok" value="确定" /><input class="cancel" data-id="cancel" type="button" value="取消" /></p>
+</div>
+<!-- 点击弹出窗口 -->
+<button id="tanchu">弹出窗口</button>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#tanchu').click(function(){
+         dialog({
+             content:document.getElementById('wjDialog'),
+			 ok: function () {
+				 this.close();
+				 return false;
+				 },
+			 cancel: function () {
+				 this.close();
+				 return false;
+				 },
+			 width:360,
+			 height:150,
+			 fixed:false,
+         }).showModal();
+		 //让隐藏的样式显示
+		 $('#wjDialog').css('display','block');
+	});
+})
+</script>
+</body>
+</html>

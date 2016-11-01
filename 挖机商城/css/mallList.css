@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*--- 个人中心 刘朋玉 2015年9月16日 ---*/
+/*---- 面包屑导航 ----*/
+.ucBreads{width:1200px;height:55px;margin:0px auto;overflow:hidden;font:14px/55px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.ucBreads a{color:#666;}
+.ucBreads a:hover{color:#f60;}
+.ucBreads code{color:#666;margin:0px 10px;}
+/*---- 列表筛选 ----*/
+.listSort{width:1160px;height:auto;overflow:hidden;margin:0px auto;background-color:#fff;padding:0px 20px 0px 20px;border-bottom:#e5e5e5 solid 1px}
+.listSort p{height:52px;font:14px/53px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;border-bottom:#e5e5e5 solid 1px;word-wrap:break-word}
+.listSort p i{float:left;text-align:right;color:#000;}
+.listSort p a{color:#666;margin:0px 15px;display:inline-block;}
+.listSort p a:hover{color:#f90;}
+.listSort p.last{border:none;}
+/*---- 条件筛选 ----*/
+.conditionSort{width:1160px;height:57px;background-color:#fff;padding:0px 20px;margin:20px auto 0px auto;font:14px/57px "微软雅黑";}
+.conditionSort a{border:#dcdcdc solid 1px;padding:4px 10px;color:#666;margin-right:12px;}
+.conditionSort a.selected{border:#f60 solid 1px;color:#f60;font-weight:bold;}
+.conditionSort a:hover{text-decoration:none;}
+.conditionSort a i{width:9px;height:10px;display:inline-block;margin-left:10px;background:url(../images/sortBg.png) no-repeat;}
+.conditionSort a i.price{background-position:0px 0px;}
+.conditionSort a i.price2{background-position:-9px 0px;}
+.conditionSort a i.price3{background-position:-18px 0px;}
+.conditionSort a i.sales{background-position:-29px 0px;}
+.conditionSort a i.sales2{background-position:-41px 0px;}
+.conditionSort a i.sales3{background-position:-54px 0px;}
+.conditionSort a i.sales4{background-position:-67px 0px;}
+.conditionSort a i.hot{background-position:-29px 0px;}
+.conditionSort a i.hot2{background-position:-41px 0px;}
+.conditionSort a i.hot3{background-position:-54px 0px;}
+.conditionSort a i.hot4{background-position:-67px 0px;}
+/*---- 新品推荐 ----*/
+.newProCom{width:218px;float:left;height:auto;overflow:hidden;background-color:#fff;border:#eaeaea solid 1px;}
+.newProCom h3{font:14px/31px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:12px;background-color:#f7f7f7;border-bottom:#eaeaea solid 1px;}
+.newProCom ul{height:686px;overflow:hidden;padding:0px 10px 0px 10px;}
+.newProCom ul li{padding:10px 24px 8px 24px;border-bottom:#dcdcdc dotted 1px;text-align:center;}
+.newProCom ul li img{width:141px;height:141px;display:inline-block;margin-bottom:5px;margin-left:4px;}
+.newProCom ul li b{height:40px;font:12px/18px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:5px;display:block;}
+.newProCom ul li font{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#c51a22;}
+.newProCom ul li s{font:12px/14px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.newProCom ul li a{display:block;text-align:left;}
+.newProCom ul li a:hover{text-decoration:none;}
+.newProCom ul li a:hover b{color:#f60}
+/*---- 热销排行 ----*/
+.hotSales{width:218px;float:left;height:348px;overflow:hidden;background-color:#fff;border:#eaeaea solid 1px;margin-top:20px;}
+.hotSales h3{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:12px;background-color:#f7f7f7;border-bottom:#eaeaea solid 1px;}
+.hotSales ul{padding:0px 10px 0px 10px;}
+.hotSales ul li{padding:15px 0px 15px 0px;height:75px;border-bottom:#dcdcdc dotted 1px;}
+.hotSales ul li img{width:73px;height:73px;display:block;margin-bottom:5px;float:left;border:#dcdcdc solid 1px;}
+.hotSales ul li b{width:107px;height:40px;font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:8px;display:block;float:left;padding-left:10px;overflow:hidden;}
+.hotSales ul li font{width:107px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#c51a22;float:left;padding:10px 0px 0px 10px;}
+.hotSales ul li s{font:12px/14px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.hotSales ul li a:hover{text-decoration:none;}
+.hotSales ul li a:hover b{color:#f60}
+/*---- 产品列表页广告 ----*/
+.proListAd{width:220px;float:left;height:350px;overflow:hidden;background-color:#fff;margin-top:20px;}
+/*---- 商城列表页 ----*/
+.mallList{width:1200px;height:auto;overflow:hidden;margin:20px auto 0px auto;}
+.productList{width:980px;float:right;height:1460px;overflow:hidden;}
+.productList li{width:200px;height:;background-color:#fff;margin:0px 0px 20px 15px;float:left;padding:15px 15px 0px 15px}
+.productList li img{display:block;margin-bottom:8px;}
+.productList li a.proName{display:block;height:44px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#666;overflow:hidden;margin-bottom:15px;}
+.productList li a:hover{color:#f60;}
+.productList li font{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#c51a22;}
+.productList li s{font:12px/18px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:15px;}
+.productList li span{display:block;padding:18px 0px 15px 0px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#999}
+.productList li span font{font:14px/14px "\5FAE\8F6F\96C5\9ED1";}
+.productList li span i{float:right;}

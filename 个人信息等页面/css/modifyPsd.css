@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*---- 修改密码 ----*/
+.accWelcom{height:auto;overflow:hidden;}
+.accWelcom h1{font:18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:20px 0px 10px 0px}
+.accWelcom p{color:#999;font:12px/14px "\5FAE\8F6F\96C5\9ED1";}
+.accWelcom p a{color:#f60;margin:0px 5px;}
+/*---- 修改密码 ----*/
+.modifyPsd{height:auto;overflow:hidden;border-top:#dcdcdc solid 1px;margin-top:30px;}
+.modifyPsd li{margin-top:20px;height:auto;overflow:hidden;}
+.modifyPsd li i{width:100px;font:14px/37px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;text-align:right;padding-right:10px;}
+.modifyPsd li input[type="text"],.modifyPsd li input[type="password"]{width:230px;padding:0px 0px 0px 8px;box-sizing:content-box;height:35px;font-size:14px;border:#dcdcdc solid 1px;border-radius:4px;}
+.modifyPsd li span{padding-left:10px;color:#f60;}
+.modifyPsd li.confirmCode input{width:117px;}
+.modifyPsd li.confirmCode img{margin-left:10px;width:97px;height:35px;border:#dcdcdc solid 1px;margin-right:10px;cursor:pointer;}
+.modifyPsd li.confirmCode a{color:#f60;margin-left:10px;}
+.modifyBtn{padding:0px 0px 0px 110px}
+.modifyBtn input{width:130px;height:38px;background-color:#f60;color:#fff;font-size:14px;border-radius:4px;border:none;cursor:pointer;margin-right:25px;}
+
+

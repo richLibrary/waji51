@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*-- 公用样式开始 ---*/
+.myCollect{height:30px;border-bottom:#dcdcdc solid 1px;border-top:#dcdcdc solid 1px;margin-top:15px;padding:20px 0px 10px 0px;font:15px/30px "\5FAE\8F6F\96C5\9ED1";position:relative;}
+.myCollect a{color:#666;margin-right:15px;}
+.myCollect a.on{color:#f60}
+.myCollect a:hover{text-decoration:none;}
+.collectOp{position:absolute;top:20px;right:200px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";}
+.collectOp a{color:#666;}
+.collectOp a i{margin:0px 5px 0px 18px}
+.collectOp a:hover,.collectOp a:hover i{color:#f60;}				
+.collectSearch{position:absolute;top:20px;right:0px;}
+.collectSearch input[type="text"]{width:130px;height:28px;padding-left:5px;border:#dcdcdc solid 1px;border-right:none;float:left;box-sizing:content-box;}
+.collectSearch input[type="submit"]{width:32px;height:30px;line-height:99px;overflow:hidden;border:none;cursor:pointer;box-sizing:content-box;float:left;background:url("../images/searchBtn.png") no-repeat center center scroll;}
+.collectList{width:900px;height:auto;overflow:hidden;padding-top:15px;}
+.collectList li{width:186px;height:auto;overflow:hidden;border:#fff solid 2px;position:relative;padding:10px;float:left;margin:0px 15px 15px 0px;}
+.collectList li img{width:186px;height:186px;}
+.collectList li.on{border:#ff4000 solid 2px;}
+.collectName{font:12px/25px "\5FAE\8F6F\96C5\9ED1";height:48px;color:#666;display:block;margin:5px 0px 15px 0px;overflow:hidden;}
+.collectList li font{font:20px/20px "\5FAE\8F6F\96C5\9ED1";margin-right:15px;color:#ff4000;}
+.collectList li s{color:#999;font:12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.collectList li span{display:none;width:40px;height:40px;cursor:pointer;color:#999;position:absolute;top:0px;right:0px;background:url("../images/selected.png") no-repeat 0px 0px scroll;}
+.collectList li span.selected{background-position:0px -60px;}
+.collectList li.on span{display:block;}

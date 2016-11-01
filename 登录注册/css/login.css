@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/*--- 登录页面CSS 刘朋玉 2015.09.07 ---*/
+.login{width:1198px;height:384px;margin:40px auto 0px auto;background-color:#fff;color:#666;border:#dadada solid 1px;padding-top:74px;}
+.otherLogin{width:499px;height:310px;border-right:#eee solid 1px;float:left;text-align:center;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.otherLogin a{display:inline-block;color:#3ea1f1;}
+.otherLogin a.wx,.otherLogin a.qq{width:200px;height:40px;font:16px/40px "\5FAE\8F6F\96C5\9ED1";color:#fff;border-radius:20px;}
+.otherLogin a.wx i,.otherLogin a.qq i{font-size:24px;margin-right:8px;}
+.otherLogin a.wx{background-color:#00d20d;margin-bottom:20px;}
+.otherLogin a.wx:hover,.otherLogin a.qq:hover{text-decoration:none;}
+.otherLogin a.qq{background-color:#3ea1f1;margin-bottom:40px;}
+.otherLogin h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:37px;}
+.loginMain{width:568px;padding:0px 30px 0px 100px;float:right;}
+.loginMain h2{font:24px/24px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:30px;}
+.loginMain li{margin-bottom:25px;height:auto;overflow:hidden;position:relative;}
+.loginMain li i{position:absolute;top:0px;left:0px;font:20px/38px "\5FAE\8F6F\96C5\9ED1";color:#ccc;margin-left:15px;}
+.loginMain li input[type="text"],.loginMain li input[type="password"]{width:240px;height:14px;font-size:14px;vertical-align:center;font:14px/14px "\5FAE\8F6F\96C5\9ED1 \9";color:#333;border:#dcdcdc solid 1px;padding:11px 0px 11px 50px;box-sizing:content-box;}
+.loginMain li input[type="text"].placeholder,.loginMain li input[type="password"].placeholder{color:#999;}
+.loginMain li span{padding-left:15px;color:#e73e3b;}
+.remPsd input[type="checkbox"]{-webkit-appearance:none;width:15px;height:15px;border:#dcdcdc solid 1px;margin-right:10px;float:left;cursor:pointer;}
+.remPsd input[type="checkbox"]:checked{background:url("../images/account.png") no-repeat 0px -115px scroll;}
+.remPsd{font:14px/17px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.remPsd a{color:#3ea1f1;margin-left:38px;}
+.loginMain li input[type="button"]{width:290px;height:40px;background-color:#ea3e3e;border:none;font-size:16px;letter-spacing:5px;cursor:pointer;color:#fff}
